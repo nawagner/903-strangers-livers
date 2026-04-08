@@ -1,0 +1,11 @@
+{
+  "n_genes": 35238,
+  "n_samples": 903,
+  "total_cells": 31819914,
+  "raw_max": 9402148,
+  "raw_min": 0,
+  "zero_fraction": 0.6173,
+  "lib_size_min": 106839,
+  "lib_size_max": 132035654,
+  "lib_size_median": 1589161
+}

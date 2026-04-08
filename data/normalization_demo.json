@@ -1,0 +1,97 @@
+{
+  "small_sample": {
+    "gsm": "GSM2547274",
+    "library_size": 339099
+  },
+  "large_sample": {
+    "gsm": "GSM2232195",
+    "library_size": 52709047
+  },
+  "library_size_ratio": 155.44,
+  "genes": [
+    {
+      "gene": "ALB",
+      "raw_small": 110,
+      "raw_large": 6481747,
+      "logcpm_small": 8.346,
+      "logcpm_large": 16.908
+    },
+    {
+      "gene": "TF",
+      "raw_small": 8,
+      "raw_large": 809046,
+      "logcpm_small": 4.62,
+      "logcpm_large": 13.906
+    },
+    {
+      "gene": "HP",
+      "raw_small": 25,
+      "raw_large": 568815,
+      "logcpm_small": 6.224,
+      "logcpm_large": 13.398
+    },
+    {
+      "gene": "SERPINA1",
+      "raw_small": 5,
+      "raw_large": 826746,
+      "logcpm_small": 3.977,
+      "logcpm_large": 13.937
+    },
+    {
+      "gene": "APOB",
+      "raw_small": 9,
+      "raw_large": 386905,
+      "logcpm_small": 4.784,
+      "logcpm_large": 12.842
+    },
+    {
+      "gene": "FGB",
+      "raw_small": 28,
+      "raw_large": 452669,
+      "logcpm_small": 6.385,
+      "logcpm_large": 13.068
+    },
+    {
+      "gene": "FGG",
+      "raw_small": 59,
+      "raw_large": 349481,
+      "logcpm_small": 7.451,
+      "logcpm_large": 12.695
+    },
+    {
+      "gene": "TTR",
+      "raw_small": 5,
+      "raw_large": 94806,
+      "logcpm_small": 3.977,
+      "logcpm_large": 10.814
+    },
+    {
+      "gene": "CYP3A4",
+      "raw_small": 0,
+      "raw_large": 73910,
+      "logcpm_small": 0.0,
+      "logcpm_large": 10.455
+    },
+    {
+      "gene": "AFP",
+      "raw_small": 6,
+      "raw_large": 423,
+      "logcpm_small": 4.224,
+      "logcpm_large": 3.174
+    },
+    {
+      "gene": "A2M",
+      "raw_small": 2,
+      "raw_large": 433122,
+      "logcpm_small": 2.786,
+      "logcpm_large": 13.005
+    },
+    {
+      "gene": "C3",
+      "raw_small": 4,
+      "raw_large": 691802,
+      "logcpm_small": 3.678,
+      "logcpm_large": 13.68
+    }
+  ]
+}

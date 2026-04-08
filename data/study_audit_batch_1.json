@@ -1,0 +1,162 @@
+[
+  {
+    "gse": "GSE96981",
+    "n_samples": 299,
+    "title": "Multilineage communication regulates human liver bud self-organization from pluripotency II",
+    "summary": "Conventional 2-D differentiation from pluripotency fails to recapitulate cell interactions occurring during organogenesis. 3-D organoids generate complex organ-like tissues, however it is unclear how heterotypic interactions impact lineage identity. Here we use single-cell RNA-seq to reconstruct hepatocyte-like lineage progression from pluripotency in 2-D culture. We then derive 3-D liver bud (LB) organoids by reconstituting hepatic, stromal, and endothelial interactions, and deconstruct heterogeneity during LB development. We find that LB hepatoblasts diverge from the 2-D lineage, and express epithelial migration signatures characteristic of organ budding. We benchmark 3-D LBs against fetal and adult human liver scRNA-seq data, and find a striking correspondence between the 3-D LB and fetal liver cells. We use a receptor-ligand pairing analysis and a high-throughput inhibitor assay to interrogate signaling in LBs, and show that VEGF crosstalk potentiates endothelial network formation and hepatoblast differentiation. Our molecular dissection reveals interlineage communication regulating organoid development, and illuminates previously inaccessible aspects of human liver development.",
+    "overall_design": "",
+    "sample_titles_sample": "A10A_fetalHep2_fetal17 | A10B_fetalHep1_fetal10 | A10B_fetalHep2_fetal10 | A11A_fetalHep1_fetal17 | A11A_fetalHep2_fetal17 | A11B_fetalHep1_fetal10 | A12A_fetalHep2_fetal17 | A12B_fetalHep1_fetal10 | (+291 more)"
+  },
+  {
+    "gse": "GSE81252",
+    "n_samples": 174,
+    "title": "Multilineage communication regulates human liver bud self-organization from pluripotency I",
+    "summary": "Conventional 2-D differentiation from pluripotency fails to recapitulate cell interactions occurring during organogenesis. 3-D organoids generate complex organ-like tissues, however it is unclear how heterotypic interactions impact lineage identity. Here we use single-cell RNA-seq to reconstruct hepatocyte-like lineage progression from pluripotency in 2-D culture. We then derive 3-D liver bud (LB) organoids by reconstituting hepatic, stromal, and endothelial interactions, and deconstruct heterogeneity during LB self-organization. We find that LB hepatoblasts differentiate towards hepatocyte fate, and in addition express epithelial migration signatures characteristic of organ budding. We identify hypoxia and inflammation signatures in endothelial and mesenchymal cells, which we suggest induce LB vasculogenesis. We use network analysis to predict autocrine and paracrine signaling in LBs, and show that VEGF crosstalk potentiates endothelial network formation and hepatoblast differentiation. Our molecular dissection reveals inter-lineage communication that is required for self-organization, and illuminates previously inaccessible aspects of human organ development and regeneration.",
+    "overall_design": "",
+    "sample_titles_sample": "lb1_A1 | lb1_A12 | lb1_A4 | lb1_A6 | lb1_A9 | lb1_B10 | lb1_B12 | lb1_B5 | (+166 more)"
+  },
+  {
+    "gse": "GSE84346",
+    "n_samples": 46,
+    "title": "Transcriptional response to hepatitis C virus infection and interferon alpha treatment in the human liver",
+    "summary": "Hepatitis C virus (HCV) is widely used to investigate host-virus interactions and cellular responses to infection have been extensively studied in vitro. In human liver, interferon (IFN) stimulated gene expression can mask direct transcriptional responses to virus infection. To better characterize the direct effects of HCV infection in vivo, we analyze the transcriptomes of HCV-infected patients lacking an activated endogenous IFN system. We show that the expression changes observed in these patients predominantly reflect immune cell infiltrates rather than changes in cell-intrinsic metabolic pathways. We also investigate the transcriptomes of patients with endogenous IFN activation, which paradoxically cannot eradicate viral infection. We find that most IFN-stimulated genes (ISGs) are induced by both the endogenous IFN system and by recombinant IFN therapy, but with significantly higher induction levels in the latter. We conclude that the innate host immune response in chronic hepatitis C is too weak to clear the virus.",
+    "overall_design": "",
+    "sample_titles_sample": "A584 | A584_2 | A609 | A609_2 | A616_B2 | A616_OCT | A707 | A707_2 | (+38 more)"
+  },
+  {
+    "gse": "GSE84073",
+    "n_samples": 31,
+    "title": "Patient-derived organoid cultures model human primary liver cancer in vitro",
+    "summary": "The study of human liver cancer has been hampered by the lack of reliable models that faithfully recapitulate the physiopathology of the patient\u2019s original tumour ex vivo. Here, we describe the first culture system to allow the establishment and long-term expansion of human primary liver cancer (PLC) organoids (called tumoroids) from the three most common PLC subtypes: Hepatocellular carcinoma (HCC), Cholangiocarcinoma (CC) and mixed HCC/CC tumours (CHC). We evaluated whether tumoroid lines maintain the expression profile and the genomic landscape of the original tumor they derived from by performing genome-wide (RNAseq/WES) analyses before and after culture. These analyses reveal that the cultures closely recapitulate the gene expression and the mutational landscape of the original tumor, allowing discrimination between different tumor subtypes (HCC, CHC, CC).",
+    "overall_design": "",
+    "sample_titles_sample": "CC1-Organoid_1 [RNA-Seq] | CC1-Organoid_a [RNA-Seq] | CC1-Organoid_b [RNA-Seq] | CC1-Organoid_c [RNA-Seq] | CC1-Tissue_1 [RNA-Seq] | CC1-Tissue_2 [RNA-Seq] | CC2-Tissue [RNA-Seq] | CC3-Organoid [RNA-Seq] | (+23 more)"
+  },
+  {
+    "gse": "GSE104766",
+    "n_samples": 30,
+    "title": "New insights into diagnosis and therapeutic options for proliferative hepatoblastoma",
+    "summary": "Surgery and cisplatin-based treatment of hepatoblastoma (HB) currently guarantee the survival of 70-80% of patients. However, some important challenges remain in diagnosing high risk tumors and identifying relevant targetable pathways offering new therapeutic avenues. Previously, two molecular subclasses of hepatoblastoma tumors have been described, namely C1 and C2; C2 being the subgroup with the poorest prognosis, a more advanced tumor stage and the worst overall survival rate. An associated 16-gene signature to discriminate the two tumoral subgroups was proposed but it has not been transferred into clinical routine. To address these issues we performed RNA sequencing of 25 tumors and matched normal liver samples from patients. The transcript profiling separated HB into three distinct subgroups named C1, C2A and C2B, identifiable by a concise four-gene signature: HSD17B6, ITGA6, TOP2A and VIM, with TOP2A being characteristic for the proliferative C2A tumors. Differential expression of these genes was confirmed by RT-qPCR on an expanded cohort and by immunohistochemistry. We also revealed significant overexpression of genes involved in Fanconi Anemia (FA) pathway in the  C2A subgroup. We then investigated the ability of several described FA inhibitors to block growth of HB cells in vitro and in vivo. We demonstrated that bortezomib, an FDA-approved proteasome inhibitor, strongly impairs the proliferation and survival of HB cell lines in vitro, blocks FA pathway associated double-strand DNA repair and significantly impedes HB growth in vivo.  In conclusion, the highly proliferating C2A subtype is characterized by TOP2A gene up-regulation and FA pathway activation and HB therapeutic arsenal could include Bortezomib for the treatment of patients with the most aggressive tumors.",
+    "overall_design": "",
+    "sample_titles_sample": "P02_NT | P04_a_NT | P04_c_NT_rep1 | P04_c_NT_rep2 | P04_c_NT_rep3 | P05_NT | P09_NT | P10_NT | (+22 more)"
+  },
+  {
+    "gse": "GSE70503",
+    "n_samples": 24,
+    "title": "Transcriptomic variation of pharmacogenes in multiple human tissues and lymphoblastoid cell lines",
+    "summary": "Variation in the expression level and activity of genes involved in drug disposition and action (\u201cpharmacogenes\u201d) can affect drug response and toxicity, especially when in tissues of pharmacological importance.  Previous studies have relied primarily on microarrays to understand gene expression differences, or have focused on a single tissue or small number of samples. The goal of this study was to use RNA-seq to determine the expression levels and alternative splicing of 389 PGRN pharmacogenes across four tissues (liver, kidney, heart and adipose) and lymphoblastoid cell lines (LCLs), which are used widely in pharmacogenomics studies. Analysis of RNA-seq data from different individuals across the 5 tissues (N = 139 samples) revealed substantial variation in both expression levels and splicing across samples and tissue types. This in-depth exploration also revealed 183 splicing events in pharmacogenes that were previously not annotated.  Overall, this study serves as a rich resource for the research community to inform biomarker and drug discovery and use.",
+    "overall_design": "",
+    "sample_titles_sample": "Liver_1 | Liver_10 | Liver_11 | Liver_12 | Liver_13 | Liver_14 | Liver_15 | Liver_16 | (+16 more)"
+  },
+  {
+    "gse": "GSE94660",
+    "n_samples": 21,
+    "title": "RNA sequencing (RNA-SEQ) of 21 HBV-HCC patients with non-neoplastic liver and tumor tissues",
+    "summary": "Purpose: Chronic Hepatitis B virus (HBV) infection leads to liver fibrosis which is a major risk factor in Hepatocellular carcinoma (HCC) and an independent risk factor of recurrence after HCC tumor resection. HBV genome can be inserted into human genome, and chronic inflammation may trigger somatic mutations. Several studies characterized HBV integration sites in HCC patients with regard to frequently occurring hotspots. However, how HBV integration and other genomic changes contribute to the risk of tumor recurrence with regard to different degree of liver fibrosis is not clearly understood. In this study, we aim to find potential molecular mechanisms underlying tumor recurrence of HBV-associated HCC (HBV-HCC) with different degree of liver fibrosis. Methods: We performed RNA sequencing of 21 pairs of tumor and non-neoplastic liver tissues of HBV-HCC patients and performed comprehensive genomic analysis of our RNAseq data and public available sequencing data related to HBV-HCC. We developed a robust pipeline for sensitively identifying HBV integration sites based on sequencing data. Simulations with sequencing data showed that our method outperformed existing methods.  We also compared SNPs of each sample with SNPs in cancer census database and inferred patient\u2019s pathogenic SNP loads in tumor and non-neoplastic liver tissues. Conclusions: The HBV-integration and pathogenic SNP load patterns for HCC recurrence risk vary depending on liver fibrosis stage, suggesting potentially different tumorigenesis mechanisms for low and high liver fibrosis patients.",
+    "overall_design": "",
+    "sample_titles_sample": "Non-neoplastic liver tissue of P105 | Non-neoplastic liver tissue of P106 | Non-neoplastic liver tissue of P112 | Non-neoplastic liver tissue of P131 | Non-neoplastic liver tissue of P138 | Non-neoplastic liver tissue of P140 | Non-neoplastic liver tissue of P152 | Non-neoplastic liver tissue of P157 | (+13 more)"
+  },
+  {
+    "gse": "GSE104310",
+    "n_samples": 20,
+    "title": "Gene Expression Profile of human hepatocellular carcinoma by RNA sequencing",
+    "summary": "The aim of the present study was to investigate biomarkers in the malignant process of HCC by high throughput sequencing.",
+    "overall_design": "",
+    "sample_titles_sample": "2429N | 2429T | 2591N | 2591T | 2634N | 2634T | 2701N | 2701T | (+12 more)"
+  },
+  {
+    "gse": "GSE63018",
+    "n_samples": 19,
+    "title": "Genome and transcriptome profiling of fibrolamellar carcinoma [RNA-Seq]",
+    "summary": "Fibrolamellar hepatocellular carcinoma (FL-HCC) is a rare variant of HCC that most frequently affects young adults. Because of its rarity and an absence of preclinical models, the molecular biology of FL-HCC remains unclear. Our objective was to analyze chromosomal alterations and dysregulated gene expression in tumor specimens collected at a single center during two decades of experience with FL-HCC.",
+    "overall_design": "",
+    "sample_titles_sample": "MC16 | MC17 | MC19 | MC20 | MC22 | MC27 | MC28 | MC30 | (+11 more)"
+  },
+  {
+    "gse": "GSE97214",
+    "n_samples": 18,
+    "title": "Transcriptome sequencing identify a recurrent CRYL1-IFT88 chimeric transcript in hepatocellular carcinoma",
+    "summary": "We performed transcriptome sequencing for hepatocellular carcinoma (HCC) and adjacent non-tumorous tissues to investigate the molecular basis of HCC. Nine HCC patients were recruited and differentially expressed genes (DEGs) were identified. Candidate fusion transcripts were also identified. Further RT-PCR and Sanger sequencing experiments were performed to validate potential recurrent fusion transcripts in other 54 pairs of tumor and adjacent non-tumor samples. A total of 1943 DEGs were detected, including 690 up-regulated and 1253 down-regulated genes, and enriched in ten pathways, especially cell cycle, DNA replication, p53 and complement and coagulation cascades. Seven candidate fusion genes were detected and CRYL1-IFT88 was successfully validated in the discovery sequencing sample and another 5 tumor samples with the recurrent rate of about 9.52% (6/63). The full length of CRYL1-IFT88 was obtained by 3' and 5' RACE. The function of the fusion transcript is closed to CRYL1 because it contained most of domain of CRYL1. According to the bioinformatics analysis, IFT88, reported as a tumor suppressor, might be seriously depressed in the tumor cell with this fusion because the transcript structure of IFT88 was totally changed. The function depression of IFT88 caused by gene fusion CRYL1-IFT88 might be associated with tumorigenesis or development of HCC.",
+    "overall_design": "",
+    "sample_titles_sample": "Highly differentiated P21N | Highly differentiated P21T | Highly differentiated P24N | Highly differentiated P24T | Highly differentiated P40N | Highly differentiated P40T | Moderately differentiated P26N | Moderately differentiated P26T | (+10 more)"
+  },
+  {
+    "gse": "GSE63420",
+    "n_samples": 14,
+    "title": "Massive parallel sequencing uncovers actionable FGFR2-PPHLN1 fusion and ARAF mutations in intrahepatic cholangiocarcinoma",
+    "summary": "Intrahepatic cholangiocarcinoma (iCCA) is a fatal bile duct cancer with dismal prognosis and limited therapeutic options. By performing RNA- and exome sequencing analyses we have discovered a novel fusion event, FGFR2-PPHLN1 (16%), and damaging mutations in the ARAF oncogene (11%).",
+    "overall_design": "",
+    "sample_titles_sample": "ICC10 (RNA-seq) | ICC11 (RNA-seq) | ICC12 (RNA-seq) | ICC13 (RNA-seq) | ICC14 (RNA-seq) | ICC15 (RNA-seq) | ICC16 (RNA-seq) | ICC17 (RNA-seq) | (+6 more)"
+  },
+  {
+    "gse": "GSE107650",
+    "n_samples": 14,
+    "title": "Low carbohydrate diet study for non-alcoholic fatty liver disease patients",
+    "summary": "We performed a short-term dietary intervention with a low-carbohydrate diet in obese subjects with NAFLD",
+    "overall_design": "",
+    "sample_titles_sample": "subject1_after_low_carbohydrate_diet | subject1_before_low_carbohydrate_diet | subject2_after_low_carbohydrate_diet | subject2_before_low_carbohydrate_diet | subject3_after_low_carbohydrate_diet | subject3_before_low_carbohydrate_diet | subject4_after_low_carbohydrate_diet | subject4_before_low_carbohydrate_diet | (+6 more)"
+  },
+  {
+    "gse": "GSE89775",
+    "n_samples": 13,
+    "title": "Loss of EGFR-DDEF1 signaling in metastatic and unresectable hepatoblastoma",
+    "summary": "We report that the application of PE sequencing of mRNA in hepatoblastoma patient biopsies effectively discriminates genes that are expressed, poised for expression, or stably repressed, and therefore reflect cell state and lineage potential. Lysine 36 trimethylation marks primary coding and non-coding transcripts, facilitating gene annotation. Trimethylation of lysine 9 and lysine 20 is detected at satellite, telomeric and active long-terminal repeats, and can spread into proximal unique sequences. Lysine 4 and lysine 9 trimethylation marks imprinting control regions. Finally, we show that chromatin state can be read in an allele-specific manner by using single nucleotide polymorphisms. This study provides a framework for the application of comprehensive chromatin profiling towards characterization of diverse mammalian cell populations.",
+    "overall_design": "",
+    "sample_titles_sample": "769_NC_S1 | 785_NC_S2 | 791_NC_S3 | Sample_RNAseq_FT10 | Sample_RNAseq_FT11 | Sample_RNAseq_FT12 | Sample_RNAseq_FT13 | Sample_RNAseq_FT14 | (+5 more)"
+  },
+  {
+    "gse": "GSE85223",
+    "n_samples": 13,
+    "title": "Hepatic differentiation of liver organoids",
+    "summary": "We analyzed gene expression profiles of self-organizing, multi-cellular, 3D liver organoids derived by co-culture of induced Pluripotent Stem Cell and stromal progenitors. We report the RNA-seq results of liver organoid at day0, day2, day4, day6 of co-culture. We also report RNA-seq results of constituent of the liver organoid, which are human iPSC at hepatic specification stage, human Mesenchymal stem cells derived from bone marrow, human umbilical vein endothelial cell. As controls, we also report RNS-seq results of un-differentiated human iPSC, human iPSC at definitive endoderm stage, human liver tissue, and primary cultured human hepatocytes isolated from unused donor livers.",
+    "overall_design": "",
+    "sample_titles_sample": "Base1 | Base2 | Base3 | NHL | TkLB10 | TkLB11 | TkLB12 | TkLB13 | (+5 more)"
+  },
+  {
+    "gse": "GSE83322",
+    "n_samples": 12,
+    "title": "Next Generation Sequencing of liver and subcutaneous fat tissues obtained from obese subjects",
+    "summary": "Patients had low calorie diet weight reduction run in prior to the day of surgery. The human liver and subcutaneous fat tissue samples were obtained from 12 obese  subjects undergoing bariatric surgery and then used for the mRNA expression analyses.",
+    "overall_design": "",
+    "sample_titles_sample": "L_1008 | L_1011 | L_1036 | L_1038 | L_1040 | L_1045 | L_1054 | L_1055 | (+4 more)"
+  },
+  {
+    "gse": "GSE90878",
+    "n_samples": 12,
+    "title": "An erythroid-specific enhancer of ATP2B4 mediates red blood cell hydration and malaria susceptibility [RNA-seq]",
+    "summary": "Few genotype-phenotype associations identified by genome-wide association studies (GWAS) have been defined mechanistically, precluding thorough assessment of their impact on human health. We conducted an expression quantitative trait loci (eQTL) mapping analysis in human erythroblasts and found erythroid-specific eQTLs for ATP2B4, the main calcium ATPase of red blood cells (RBC). The same SNPs were previously associated with mean corpuscular hemoglobin concentration (MCHC) and susceptibility to severe malaria infection. We showed that Atp2b4-/- mice demonstrate increased MCHC, confirming ATP2B4 as the causal gene at this GWAS locus. Using CRISPR-Cas9, we fine-mapped the genetic signal to an erythroid-specific enhancer bound by GATA1 and TAL1. These results illustrate the importance to combine transcriptome, epigenome, and genome editing approaches in phenotype-relevant cells to characterize non-coding regulatory elements associated with human complex diseases and traits. Our studies suggest ATP2B4 as a potential target to modulate RBC hydration in erythroid disorders and malaria infection.",
+    "overall_design": "",
+    "sample_titles_sample": "Fetal_liver_erythroblast_rep0_RNA-seq | Fetal_liver_erythroblast_rep10_RNA-seq | Fetal_liver_erythroblast_rep11_RNA-seq | Fetal_liver_erythroblast_rep1_RNA-seq | Fetal_liver_erythroblast_rep2_RNA-seq | Fetal_liver_erythroblast_rep3_RNA-seq | Fetal_liver_erythroblast_rep4_RNA-seq | Fetal_liver_erythroblast_rep5_RNA-seq | (+4 more)"
+  },
+  {
+    "gse": "GSE93629",
+    "n_samples": 12,
+    "title": "Synectin Promotes Fibrogenesis by Regulating PDGFR Isoforms Through Distinct Mechanisms",
+    "summary": "The scaffold protein synectin plays a critical role in the trafficking and regulation of membrane receptor pathways.   As the platelet derived growth factor receptor (PDGFR)  pathway is essential for hepatic stellate cell (HSC) activation and liver fibrosis, we sought to determine the role of synectin on the PDGFR pathway in HSC.  To study the role of synectin in the development of liver fibrosis,  mice with selective deletion of synectin from HSC were generated and found to be protected from fibrosis.  RNAseq revealed that knockdown of synectin in HSC demonstrated reductions in the fibrosis pathway of genes including PDGFR-\u03b2, but not PDGFR-\u03b1.  Chromatin Immunoprecipitation assay of the PDGFR-\u03b2 promoter upon synectin knockdown revealed a pattern of histone marks associated with decreased transcription, dependent on p300.  In contradistinction, synectin was found to regulate PDGFR-\u03b1 through an alternative mechanism: protection from autophagic degradation.  Site directed mutagenesis revealed that ubiquitination of specific PDGFR-\u03b1 lysine residues is responsible for its autophagic degradation.  Furthermore, functional studies showed decreased PDGF dependent proliferation and migration after synectin knockdown.  Finally, human cirrhotic livers demonstrated increased synectin expression.  This work provides insight into differential transcriptional and post-translational mechanisms of synectin regulation of PDGFRs, which are critical to fibrogenesis.",
+    "overall_design": "",
+    "sample_titles_sample": "10_synectin_shRNA_vehicle | 11_synectin_shRNA_PDGF | 13_synectin_shRNA_vehicle | 14_synectin_shRNA_PDGF | 16_synectin_shRNA_vehicle | 17_synectin_shRNA_PDGF | 1_ctrl_shRNA_vehicle | 2_ctrl_shRNA_PDGF | (+4 more)"
+  },
+  {
+    "gse": "GSE83990",
+    "n_samples": 12,
+    "title": "Zone dependent distinctive gene expression profile of the normal human liver tissue",
+    "summary": "The regulatory mechanisms that shapes the hepatic zonation is not well understood. In addition, the concept and significance of of hepatic zonation is well established in rodens, however, its relavence to human liver biology remain elusive. We conducted a comprehensive transcriptome analysis of each zonation within normal human liver vis Laser Capture Microdissection approach. Here,  we report a poly A RNA sequencing data of the individual zone of liver tissue as well as the whole liver of the corresponding subjects.",
+    "overall_design": "",
+    "sample_titles_sample": "LM1-WL | LM1-Z1 | LM1-Z2 | LM1-Z3 | LM2-WL | LM2-Z1 | LM2-Z2 | LM2-Z3 | (+4 more)"
+  },
+  {
+    "gse": "GSE104873",
+    "n_samples": 10,
+    "title": "RNA Seq of Alagille liver biopsies",
+    "summary": "Needle biopsies were performed to obtain liver samples from patients for clinical purposes from patients with Alagille syndrome. A small portion was snap frozen and later used for RNA sequencing analysis. Needle biospies from 5 patients with other liver disorders were included as controls.",
+    "overall_design": "",
+    "sample_titles_sample": "Liver_ALGS1 | Liver_ALGS2 | Liver_ALGS3 | Liver_ALGS4 | Liver_ALGS5 | Liver_Ctrl1 | Liver_Ctrl2 | Liver_Ctrl3 | (+2 more)"
+  },
+  {
+    "gse": "GSE102188",
+    "n_samples": 8,
+    "title": "RNA-sequencing of human liver tissue",
+    "summary": "We performed quadruplicate RNA-sequencing on two human livers",
+    "overall_design": "",
+    "sample_titles_sample": "SL147673 | SL147674 | SL147675 | SL147676 | SL147677 | SL147678 | SL147679 | SL147680"
+  }
+]

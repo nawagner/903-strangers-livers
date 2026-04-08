@@ -1,0 +1,334 @@
+{
+  "PC1": {
+    "positive": [
+      {
+        "gene": "EPHX1",
+        "loading": 0.0333
+      },
+      {
+        "gene": "RETSAT",
+        "loading": 0.033
+      },
+      {
+        "gene": "LRP5",
+        "loading": 0.0329
+      },
+      {
+        "gene": "CLUH",
+        "loading": 0.0329
+      },
+      {
+        "gene": "PARP10",
+        "loading": 0.0328
+      },
+      {
+        "gene": "PLIN4",
+        "loading": 0.0327
+      },
+      {
+        "gene": "CTSZ",
+        "loading": 0.0326
+      },
+      {
+        "gene": "RP5-966M1.6",
+        "loading": 0.0326
+      },
+      {
+        "gene": "MTSS1L",
+        "loading": 0.0326
+      },
+      {
+        "gene": "TNS2",
+        "loading": 0.0325
+      },
+      {
+        "gene": "ALDH4A1",
+        "loading": 0.0324
+      },
+      {
+        "gene": "CTSF",
+        "loading": 0.0323
+      },
+      {
+        "gene": "H6PD",
+        "loading": 0.0323
+      },
+      {
+        "gene": "ARHGEF10L",
+        "loading": 0.0323
+      },
+      {
+        "gene": "PLXNB1",
+        "loading": 0.0323
+      },
+      {
+        "gene": "PTMS",
+        "loading": 0.0322
+      },
+      {
+        "gene": "CES2",
+        "loading": 0.0321
+      },
+      {
+        "gene": "LDHD",
+        "loading": 0.0321
+      },
+      {
+        "gene": "CLSTN3",
+        "loading": 0.0321
+      },
+      {
+        "gene": "RAB43",
+        "loading": 0.032
+      }
+    ],
+    "negative": [
+      {
+        "gene": "RP11-217O12.1",
+        "loading": -0.0285
+      },
+      {
+        "gene": "HIST1H4C",
+        "loading": -0.0221
+      },
+      {
+        "gene": "HBG2",
+        "loading": -0.0199
+      },
+      {
+        "gene": "HBG1",
+        "loading": -0.0197
+      },
+      {
+        "gene": "RP11-572P18.1",
+        "loading": -0.0189
+      },
+      {
+        "gene": "AHSP",
+        "loading": -0.0185
+      },
+      {
+        "gene": "HBM",
+        "loading": -0.0182
+      },
+      {
+        "gene": "MTRNR2L10",
+        "loading": -0.0178
+      },
+      {
+        "gene": "GYPA",
+        "loading": -0.0177
+      },
+      {
+        "gene": "HEMGN",
+        "loading": -0.0177
+      },
+      {
+        "gene": "RHAG",
+        "loading": -0.0176
+      },
+      {
+        "gene": "ALAS2",
+        "loading": -0.0174
+      },
+      {
+        "gene": "GYPB",
+        "loading": -0.0172
+      },
+      {
+        "gene": "SNCA",
+        "loading": -0.0159
+      },
+      {
+        "gene": "EPB42",
+        "loading": -0.0149
+      },
+      {
+        "gene": "SPTA1",
+        "loading": -0.0146
+      },
+      {
+        "gene": "NFE2",
+        "loading": -0.0134
+      },
+      {
+        "gene": "SLC4A1",
+        "loading": -0.0133
+      },
+      {
+        "gene": "H2AFZ",
+        "loading": -0.0132
+      },
+      {
+        "gene": "CKS2",
+        "loading": -0.013
+      }
+    ]
+  },
+  "PC2": {
+    "positive": [
+      {
+        "gene": "ALDOA",
+        "loading": 0.05
+      },
+      {
+        "gene": "PKM",
+        "loading": 0.0485
+      },
+      {
+        "gene": "PFKP",
+        "loading": 0.0472
+      },
+      {
+        "gene": "MTHFD2",
+        "loading": 0.0471
+      },
+      {
+        "gene": "CALU",
+        "loading": 0.0467
+      },
+      {
+        "gene": "BCAT1",
+        "loading": 0.0466
+      },
+      {
+        "gene": "TPM4",
+        "loading": 0.0463
+      },
+      {
+        "gene": "IQGAP1",
+        "loading": 0.0446
+      },
+      {
+        "gene": "PLAUR",
+        "loading": 0.0445
+      },
+      {
+        "gene": "P4HA2",
+        "loading": 0.0442
+      },
+      {
+        "gene": "ANXA2",
+        "loading": 0.0438
+      },
+      {
+        "gene": "LOX",
+        "loading": 0.0436
+      },
+      {
+        "gene": "LOXL2",
+        "loading": 0.0432
+      },
+      {
+        "gene": "S100A6",
+        "loading": 0.0431
+      },
+      {
+        "gene": "ENO1",
+        "loading": 0.0429
+      },
+      {
+        "gene": "SLC7A11",
+        "loading": 0.0429
+      },
+      {
+        "gene": "HK2",
+        "loading": 0.0428
+      },
+      {
+        "gene": "ENO2",
+        "loading": 0.0427
+      },
+      {
+        "gene": "CD109",
+        "loading": 0.0427
+      },
+      {
+        "gene": "S100A11",
+        "loading": 0.0426
+      }
+    ],
+    "negative": [
+      {
+        "gene": "ALB",
+        "loading": -0.0451
+      },
+      {
+        "gene": "HP",
+        "loading": -0.0433
+      },
+      {
+        "gene": "APOH",
+        "loading": -0.0432
+      },
+      {
+        "gene": "KNG1",
+        "loading": -0.043
+      },
+      {
+        "gene": "FGG",
+        "loading": -0.0428
+      },
+      {
+        "gene": "ORM1",
+        "loading": -0.0424
+      },
+      {
+        "gene": "FGL1",
+        "loading": -0.0422
+      },
+      {
+        "gene": "FGB",
+        "loading": -0.0422
+      },
+      {
+        "gene": "FABP1",
+        "loading": -0.042
+      },
+      {
+        "gene": "TF",
+        "loading": -0.0418
+      },
+      {
+        "gene": "ORM2",
+        "loading": -0.0416
+      },
+      {
+        "gene": "APOC3",
+        "loading": -0.0415
+      },
+      {
+        "gene": "SERPINC1",
+        "loading": -0.0413
+      },
+      {
+        "gene": "SAA4",
+        "loading": -0.0411
+      },
+      {
+        "gene": "AMBP",
+        "loading": -0.0411
+      },
+      {
+        "gene": "SLC2A2",
+        "loading": -0.0406
+      },
+      {
+        "gene": "APOC4-APOC2",
+        "loading": -0.0406
+      },
+      {
+        "gene": "GSTA1",
+        "loading": -0.0402
+      },
+      {
+        "gene": "APCS",
+        "loading": -0.0402
+      },
+      {
+        "gene": "GC",
+        "loading": -0.0402
+      }
+    ]
+  }
+}

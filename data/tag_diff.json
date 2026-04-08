@@ -1,0 +1,602 @@
+[
+  {
+    "gse": "GSE96981",
+    "n_samples": 299,
+    "regex_tag": "organoid",
+    "llm_tag": "iPSC/ESC differentiation",
+    "agreed": false,
+    "is_liver_focused": true,
+    "confidence": "high",
+    "rationale": "scRNA-Seq during 'human iPSC-derived liver bud(LB) differentiation' is an iPSC-to-hepatic differentiation study producing organoid-like liver buds."
+  },
+  {
+    "gse": "GSE81252",
+    "n_samples": 174,
+    "regex_tag": "stem cell / differentiation",
+    "llm_tag": "iPSC/ESC differentiation",
+    "agreed": false,
+    "is_liver_focused": true,
+    "confidence": "high",
+    "rationale": "Bulk time-series RNA-Seq of 'human iPSC-derived liver bud(LB) differentiation' makes this an iPSC-to-liver differentiation experiment."
+  },
+  {
+    "gse": "GSE84346",
+    "n_samples": 46,
+    "regex_tag": "hepatitis",
+    "llm_tag": "primary hepatocytes",
+    "agreed": false,
+    "is_liver_focused": true,
+    "confidence": "high",
+    "rationale": "Study profiles 'primary human hepatocyte (PHH) cultures' with and without HCV infection and IFN-alpha treatment; the experimental substrate is primary hepatocytes in vitro."
+  },
+  {
+    "gse": "GSE84073",
+    "n_samples": 31,
+    "regex_tag": "HCC",
+    "llm_tag": "hepatic organoid",
+    "agreed": false,
+    "is_liver_focused": true,
+    "confidence": "high",
+    "rationale": "'Patient-derived organoid cultures model human primary liver cancer' establishes long-term tumoroid organoids from HCC/CC/CHC, making organoids the dominant signal."
+  },
+  {
+    "gse": "GSE104766",
+    "n_samples": 30,
+    "regex_tag": "normal",
+    "llm_tag": "other liver",
+    "agreed": false,
+    "is_liver_focused": true,
+    "confidence": "high",
+    "rationale": "Hepatoblastoma is a pediatric liver cancer that is not HCC or cholangiocarcinoma, so it falls under 'other liver'."
+  },
+  {
+    "gse": "GSE70503",
+    "n_samples": 24,
+    "regex_tag": "unknown",
+    "llm_tag": "normal liver",
+    "agreed": false,
+    "is_liver_focused": true,
+    "confidence": "medium",
+    "rationale": "Multi-tissue pharmacogene survey but the samples captured here are labeled 'Liver_1..16' from healthy individuals, so they represent normal liver tissue."
+  },
+  {
+    "gse": "GSE94660",
+    "n_samples": 21,
+    "regex_tag": "HCC",
+    "llm_tag": "HCC",
+    "agreed": true,
+    "is_liver_focused": true,
+    "confidence": "high",
+    "rationale": "RNA-seq of '21 HBV-HCC patients' tumor and adjacent non-tumor liver is a clear HCC study on an HBV background."
+  },
+  {
+    "gse": "GSE104310",
+    "n_samples": 20,
+    "regex_tag": "HCC",
+    "llm_tag": "HCC",
+    "agreed": true,
+    "is_liver_focused": true,
+    "confidence": "high",
+    "rationale": "'Gene Expression Profile of human hepatocellular carcinoma by RNA-seq' comparing 10 HCC tumors to 10 normal livers."
+  },
+  {
+    "gse": "GSE63018",
+    "n_samples": 19,
+    "regex_tag": "HCC",
+    "llm_tag": "HCC",
+    "agreed": true,
+    "is_liver_focused": true,
+    "confidence": "high",
+    "rationale": "'Fibrolamellar hepatocellular carcinoma (FL-HCC)' is explicitly listed as an HCC subtype in the vocabulary."
+  },
+  {
+    "gse": "GSE97214",
+    "n_samples": 18,
+    "regex_tag": "HCC",
+    "llm_tag": "HCC",
+    "agreed": true,
+    "is_liver_focused": true,
+    "confidence": "high",
+    "rationale": "'RNA-seq for 9 HCC patients with paired tumor and normal liver tissues' is a direct HCC transcriptomics study."
+  },
+  {
+    "gse": "GSE63420",
+    "n_samples": 14,
+    "regex_tag": "cholangiocarcinoma",
+    "llm_tag": "cholangiocarcinoma",
+    "agreed": true,
+    "is_liver_focused": true,
+    "confidence": "high",
+    "rationale": "Study characterizes 'intrahepatic cholangiocarcinoma (iCCA)' tumors and matched non-tumor tissue."
+  },
+  {
+    "gse": "GSE107650",
+    "n_samples": 14,
+    "regex_tag": "NAFLD/NASH",
+    "llm_tag": "NAFLD/NASH",
+    "agreed": true,
+    "is_liver_focused": true,
+    "confidence": "high",
+    "rationale": "'Low carbohydrate diet study for non-alcoholic fatty liver disease' with paired NAFLD biopsies is a clear NAFLD study."
+  },
+  {
+    "gse": "GSE89775",
+    "n_samples": 13,
+    "regex_tag": "normal",
+    "llm_tag": "other liver",
+    "agreed": false,
+    "is_liver_focused": true,
+    "confidence": "high",
+    "rationale": "Hepatoblastoma is a pediatric liver malignancy that does not fit HCC or cholangiocarcinoma categories, so 'other liver' is appropriate."
+  },
+  {
+    "gse": "GSE85223",
+    "n_samples": 13,
+    "regex_tag": "organoid",
+    "llm_tag": "hepatic organoid",
+    "agreed": false,
+    "is_liver_focused": true,
+    "confidence": "high",
+    "rationale": "'Hepatic differentiation of human liver organoids' from adult bile duct cells, with expansion vs differentiation media comparison, is an organoid study."
+  },
+  {
+    "gse": "GSE83322",
+    "n_samples": 12,
+    "regex_tag": "unknown",
+    "llm_tag": "NAFLD/NASH",
+    "agreed": false,
+    "is_liver_focused": true,
+    "confidence": "medium",
+    "rationale": "Paired liver and subcutaneous fat from 'morbidly obese patients undergoing bariatric surgery' is typically framed as NAFLD-spectrum liver biology; liver tissue is directly profiled."
+  },
+  {
+    "gse": "GSE90878",
+    "n_samples": 12,
+    "regex_tag": "stem cell / differentiation",
+    "llm_tag": "non-liver",
+    "agreed": false,
+    "is_liver_focused": false,
+    "confidence": "high",
+    "rationale": "Study focuses on 'erythroid-specific enhancer of ATP2B4' in K562/erythroid cells with liver only as a reference tissue for comparison."
+  },
+  {
+    "gse": "GSE93629",
+    "n_samples": 12,
+    "regex_tag": "fibrosis/cirrhosis",
+    "llm_tag": "hepatic stellate cell",
+    "agreed": false,
+    "is_liver_focused": true,
+    "confidence": "high",
+    "rationale": "RNA-seq of 'primary human hepatic stellate cells (HSCs) from cirrhotic vs normal livers' directly profiles stellate cells."
+  },
+  {
+    "gse": "GSE83990",
+    "n_samples": 12,
+    "regex_tag": "normal",
+    "llm_tag": "normal liver",
+    "agreed": false,
+    "is_liver_focused": true,
+    "confidence": "high",
+    "rationale": "'Zone dependent... normal human liver' profiling laser-microdissected periportal vs perivenous hepatocytes from 6 healthy donors is a normal liver study."
+  },
+  {
+    "gse": "GSE104873",
+    "n_samples": 10,
+    "regex_tag": "unknown",
+    "llm_tag": "cholestasis",
+    "agreed": false,
+    "is_liver_focused": true,
+    "confidence": "high",
+    "rationale": "'Alagille syndrome, a genetic disorder of bile duct paucity that causes cholestatic liver disease' is explicitly a cholestasis study."
+  },
+  {
+    "gse": "GSE102188",
+    "n_samples": 8,
+    "regex_tag": "unknown",
+    "llm_tag": "normal liver",
+    "agreed": false,
+    "is_liver_focused": true,
+    "confidence": "medium",
+    "rationale": "'Bulk RNA-seq of resected human liver tissue from 8 donors' with no disease framing is best classified as normal liver."
+  },
+  {
+    "gse": "GSE68086",
+    "n_samples": 7,
+    "regex_tag": "normal",
+    "llm_tag": "non-liver",
+    "agreed": false,
+    "is_liver_focused": false,
+    "confidence": "high",
+    "rationale": "Study profiles 'tumor-educated platelets' from blood, not liver tissue, even though hepatobiliary cancer patients are included."
+  },
+  {
+    "gse": "GSE100327",
+    "n_samples": 6,
+    "regex_tag": "cell line",
+    "llm_tag": "non-liver",
+    "agreed": false,
+    "is_liver_focused": false,
+    "confidence": "high",
+    "rationale": "Explicitly 'five different pancreas cancer cell lines' engineered with E47, unrelated to liver biology."
+  },
+  {
+    "gse": "GSE99697",
+    "n_samples": 6,
+    "regex_tag": "HCC",
+    "llm_tag": "hepatocyte cell line",
+    "agreed": false,
+    "is_liver_focused": true,
+    "confidence": "high",
+    "rationale": "'Iron response of HepG2 cells' is a canonical immortalized hepatocyte cell line experiment."
+  },
+  {
+    "gse": "GSE98060",
+    "n_samples": 6,
+    "regex_tag": "unknown",
+    "llm_tag": "non-liver",
+    "agreed": false,
+    "is_liver_focused": false,
+    "confidence": "high",
+    "rationale": "HUVECs (umbilical vein endothelial cells) overexpressing HIF1a/HIF2a, not liver tissue or cells."
+  },
+  {
+    "gse": "GSE101343",
+    "n_samples": 5,
+    "regex_tag": "stellate cell",
+    "llm_tag": "hepatic stellate cell",
+    "agreed": false,
+    "is_liver_focused": true,
+    "confidence": "high",
+    "rationale": "'Primary human hepatic stellate cells (HSCs) isolated from healthy patients' cultured on hydrogels of varying stiffness."
+  },
+  {
+    "gse": "GSE73708",
+    "n_samples": 4,
+    "regex_tag": "normal",
+    "llm_tag": "HCC",
+    "agreed": false,
+    "is_liver_focused": true,
+    "confidence": "high",
+    "rationale": "'Gene expression analysis of human hepatocellular cancers' with matched tumor/normal pairs."
+  },
+  {
+    "gse": "GSE98710",
+    "n_samples": 4,
+    "regex_tag": "stellate cell",
+    "llm_tag": "iPSC/ESC differentiation",
+    "agreed": false,
+    "is_liver_focused": true,
+    "confidence": "high",
+    "rationale": "'In vitro human liver model by iPSC-derived parenchymal and non-parenchymal cells' generating LPCs, LSECs, and HSCs from hiPSCs."
+  },
+  {
+    "gse": "GSE103075",
+    "n_samples": 4,
+    "regex_tag": "unknown",
+    "llm_tag": "iPSC/ESC differentiation",
+    "agreed": false,
+    "is_liver_focused": true,
+    "confidence": "high",
+    "rationale": "Compares 'hepatocyte-like cells' derived as hiPSC-Hep and hiHep, benchmarked against PHH (primary human hepatocytes)."
+  },
+  {
+    "gse": "GSE87392",
+    "n_samples": 4,
+    "regex_tag": "normal",
+    "llm_tag": "other liver",
+    "agreed": false,
+    "is_liver_focused": true,
+    "confidence": "high",
+    "rationale": "Study profiles intrahepatic NK cell subsets sorted from 'perfusion fluid of five healthy human livers' \u2014 liver-resident immunology, not any disease category."
+  },
+  {
+    "gse": "GSE58708",
+    "n_samples": 3,
+    "regex_tag": "unknown",
+    "llm_tag": "non-liver",
+    "agreed": false,
+    "is_liver_focused": false,
+    "confidence": "high",
+    "rationale": "Breast cancer metastasis study; liver samples are metastatic breast tumor deposits, not a liver biology study."
+  },
+  {
+    "gse": "GSE61474",
+    "n_samples": 3,
+    "regex_tag": "unknown",
+    "llm_tag": "normal liver",
+    "agreed": false,
+    "is_liver_focused": true,
+    "confidence": "medium",
+    "rationale": "CaptureSeq methods paper profiling lncRNAs across 20 human tissues; the included samples are normal liver tissue."
+  },
+  {
+    "gse": "GSE80463",
+    "n_samples": 3,
+    "regex_tag": "normal",
+    "llm_tag": "normal liver",
+    "agreed": false,
+    "is_liver_focused": true,
+    "confidence": "high",
+    "rationale": "Samples are 'Liver, normal, pool' of donor livers used to profile UGT alternative splicing."
+  },
+  {
+    "gse": "GSE75606",
+    "n_samples": 3,
+    "regex_tag": "unknown",
+    "llm_tag": "normal liver",
+    "agreed": false,
+    "is_liver_focused": true,
+    "confidence": "high",
+    "rationale": "Compares DNA repair gene expression in 'Human Adult Liver' samples against other species."
+  },
+  {
+    "gse": "GSE81550",
+    "n_samples": 3,
+    "regex_tag": "HCC",
+    "llm_tag": "HCC",
+    "agreed": true,
+    "is_liver_focused": true,
+    "confidence": "high",
+    "rationale": "'Three pairs of hepatocellular carcinoma and adjacent non-tumor tissues' from stage I/II HCC patients with HCV background."
+  },
+  {
+    "gse": "GSE87240",
+    "n_samples": 2,
+    "regex_tag": "HCC",
+    "llm_tag": "hepatocyte cell line",
+    "agreed": false,
+    "is_liver_focused": true,
+    "confidence": "high",
+    "rationale": "SAM treatment of HCC cell lines HepG2 and SKHep1 versus primary liver cells; dominant signal is immortalized HCC lines."
+  },
+  {
+    "gse": "GSE77661",
+    "n_samples": 2,
+    "regex_tag": "normal",
+    "llm_tag": "normal liver",
+    "agreed": false,
+    "is_liver_focused": true,
+    "confidence": "medium",
+    "rationale": "Pan-tissue circRNA discovery paper; the included samples are 'Liver_rep1/rep2' normal tissue."
+  },
+  {
+    "gse": "GSE69241",
+    "n_samples": 2,
+    "regex_tag": "unknown",
+    "llm_tag": "normal liver",
+    "agreed": false,
+    "is_liver_focused": true,
+    "confidence": "high",
+    "rationale": "Cross-species tissue transcriptome comparison; samples are 'human lv' (liver) normal tissue."
+  },
+  {
+    "gse": "GSE63634",
+    "n_samples": 2,
+    "regex_tag": "stem cell / differentiation",
+    "llm_tag": "non-liver",
+    "agreed": false,
+    "is_liver_focused": false,
+    "confidence": "medium",
+    "rationale": "Fetal liver at 12 weeks gestation from an embryonic multi-organ epigenome study; not adult human liver biology and vocabulary lacks a fetal liver tag."
+  },
+  {
+    "gse": "GSE58557",
+    "n_samples": 2,
+    "regex_tag": "stem cell / differentiation",
+    "llm_tag": "non-liver",
+    "agreed": false,
+    "is_liver_focused": false,
+    "confidence": "medium",
+    "rationale": "Derives endodermal progenitors from gastric epithelial cells; the 'Fetal-Hep' RNA-seq samples are reference fetal hepatocytes for a gastric-reprogramming study, not a liver study."
+  },
+  {
+    "gse": "GSE80126",
+    "n_samples": 2,
+    "regex_tag": "cell line",
+    "llm_tag": "non-liver",
+    "agreed": false,
+    "is_liver_focused": false,
+    "confidence": "high",
+    "rationale": "Methods study on RNA degradation and fusion detection using UHR (a mixed cell-line reference that includes hepatoblastoma among many others), not a liver biology study."
+  },
+  {
+    "gse": "GSE78562",
+    "n_samples": 2,
+    "regex_tag": "unknown",
+    "llm_tag": "normal liver",
+    "agreed": false,
+    "is_liver_focused": true,
+    "confidence": "high",
+    "rationale": "ENCODE total RNA-seq directly from human liver tissue, no disease focus."
+  },
+  {
+    "gse": "GSE88244",
+    "n_samples": 2,
+    "regex_tag": "unknown",
+    "llm_tag": "normal liver",
+    "agreed": false,
+    "is_liver_focused": true,
+    "confidence": "high",
+    "rationale": "ENCODE 'RNA-Seq on Adult Human Liver Tissue' from donors STL010/STL011, no disease."
+  },
+  {
+    "gse": "GSE78569",
+    "n_samples": 2,
+    "regex_tag": "stem cell / differentiation",
+    "llm_tag": "normal liver",
+    "agreed": false,
+    "is_liver_focused": true,
+    "confidence": "medium",
+    "rationale": "ENCODE total RNA-seq from 'human fetal liver tissue from independent donors' \u2014 primary liver tissue, no disease focus."
+  },
+  {
+    "gse": "GSE76098",
+    "n_samples": 2,
+    "regex_tag": "primary hepatocytes",
+    "llm_tag": "iPSC/ESC differentiation",
+    "agreed": false,
+    "is_liver_focused": true,
+    "confidence": "high",
+    "rationale": "Study of 'human embryonic stem cell-derived hepatocytes (hESC-Heps)' during hepatic lineage restriction."
+  },
+  {
+    "gse": "GSE76998",
+    "n_samples": 2,
+    "regex_tag": "stem cell / differentiation",
+    "llm_tag": "iPSC/ESC differentiation",
+    "agreed": false,
+    "is_liver_focused": true,
+    "confidence": "high",
+    "rationale": "'Directed in-vitro differentiation' of hESCs and hiPSCs into hepatocyte-like cells."
+  },
+  {
+    "gse": "GSE93481",
+    "n_samples": 2,
+    "regex_tag": "unknown",
+    "llm_tag": "normal liver",
+    "agreed": false,
+    "is_liver_focused": true,
+    "confidence": "high",
+    "rationale": "ENCODE 'RNA-seq of human liver tissue' with no disease annotation."
+  },
+  {
+    "gse": "GSE97367",
+    "n_samples": 2,
+    "regex_tag": "unknown",
+    "llm_tag": "normal liver",
+    "agreed": false,
+    "is_liver_focused": true,
+    "confidence": "medium",
+    "rationale": "Cross-species dosage-compensation study, but the human samples here are explicitly adult liver RNA-seq tissue."
+  },
+  {
+    "gse": "GSE101770",
+    "n_samples": 2,
+    "regex_tag": "stem cell / differentiation",
+    "llm_tag": "hepatic organoid",
+    "agreed": false,
+    "is_liver_focused": true,
+    "confidence": "high",
+    "rationale": "'Whole transcriptome analysis of iPSC-derived hepatic organoids cultures' compared to PHHs and liver tissue."
+  },
+  {
+    "gse": "GSE30017",
+    "n_samples": 1,
+    "regex_tag": "unknown",
+    "llm_tag": "normal liver",
+    "agreed": false,
+    "is_liver_focused": true,
+    "confidence": "medium",
+    "rationale": "Methodological multi-tissue splicing study, but the included 'human_liver' sample is normal adult liver tissue."
+  },
+  {
+    "gse": "GSE81080",
+    "n_samples": 1,
+    "regex_tag": "stem cell / differentiation",
+    "llm_tag": "non-liver",
+    "agreed": false,
+    "is_liver_focused": false,
+    "confidence": "high",
+    "rationale": "Study of hPSC-derived hemogenic vasculature/AGM-like hematopoietic cells; 'fetal liver-like' is only a comparison phrase, sample is FL_HSPC hematopoietic cells."
+  },
+  {
+    "gse": "GSE58679",
+    "n_samples": 1,
+    "regex_tag": "normal",
+    "llm_tag": "primary hepatocytes",
+    "agreed": false,
+    "is_liver_focused": true,
+    "confidence": "medium",
+    "rationale": "Human hepatocytes engrafted into Fah-/- humanized mouse livers to test biliary metaplasia \u2014 primary human hepatocytes in vivo."
+  },
+  {
+    "gse": "GSE66430",
+    "n_samples": 1,
+    "regex_tag": "normal",
+    "llm_tag": "other liver",
+    "agreed": false,
+    "is_liver_focused": true,
+    "confidence": "medium",
+    "rationale": "Gallstone disease gene expression in gallbladder and one liver sample from a gallstone case \u2014 liver-relevant biliary disease context."
+  },
+  {
+    "gse": "GSE88121",
+    "n_samples": 1,
+    "regex_tag": "unknown",
+    "llm_tag": "normal liver",
+    "agreed": false,
+    "is_liver_focused": true,
+    "confidence": "high",
+    "rationale": "ENCODE total RNA-seq from GTEx right lobe of liver of a 53-year-old female donor."
+  },
+  {
+    "gse": "GSE88318",
+    "n_samples": 1,
+    "regex_tag": "unknown",
+    "llm_tag": "normal liver",
+    "agreed": false,
+    "is_liver_focused": true,
+    "confidence": "high",
+    "rationale": "ENCODE total RNA-seq from GTEx right lobe of liver of a 53-year-old female donor."
+  },
+  {
+    "gse": "GSE78296",
+    "n_samples": 1,
+    "regex_tag": "stem cell / differentiation",
+    "llm_tag": "normal liver",
+    "agreed": false,
+    "is_liver_focused": true,
+    "confidence": "medium",
+    "rationale": "ENCODE small RNA-seq from 'human fetal liver tissue from independent donors', no disease focus."
+  },
+  {
+    "gse": "GSE16256",
+    "n_samples": 1,
+    "regex_tag": "stem cell / differentiation",
+    "llm_tag": "normal liver",
+    "agreed": false,
+    "is_liver_focused": true,
+    "confidence": "medium",
+    "rationale": "Roadmap Epigenome project; the included sample is 'polyA RNA sequencing of STL011 Liver Cells', primary liver tissue."
+  },
+  {
+    "gse": "GSE88393",
+    "n_samples": 1,
+    "regex_tag": "unknown",
+    "llm_tag": "normal liver",
+    "agreed": false,
+    "is_liver_focused": true,
+    "confidence": "high",
+    "rationale": "ENCODE small RNA-seq from GTEx right lobe of liver of a 53-year-old female donor."
+  },
+  {
+    "gse": "GSE88424",
+    "n_samples": 1,
+    "regex_tag": "unknown",
+    "llm_tag": "normal liver",
+    "agreed": false,
+    "is_liver_focused": true,
+    "confidence": "high",
+    "rationale": "ENCODE small RNA-seq from GTEx right lobe of liver of a 53-year-old female donor."
+  },
+  {
+    "gse": "GSE106359",
+    "n_samples": 1,
+    "regex_tag": "cell line",
+    "llm_tag": "non-liver",
+    "agreed": false,
+    "is_liver_focused": false,
+    "confidence": "high",
+    "rationale": "INTS13 enhancer activation study in monocytic differentiation/leukemia line; sample is 'CD34_chromRNA' hematopoietic, not liver."
+  },
+  {
+    "gse": "GSE71993",
+    "n_samples": 1,
+    "regex_tag": "normal",
+    "llm_tag": "hepatocyte cell line",
+    "agreed": false,
+    "is_liver_focused": true,
+    "confidence": "high",
+    "rationale": "'MIHA is an immortalized human liver cell line' transfected with truncated HBV X protein mutants."
+  }
+]

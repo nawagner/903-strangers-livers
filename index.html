@@ -1,0 +1,741 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width,initial-scale=1" />
+<title>903 Strangers' Livers — An exploratory analysis</title>
+<meta name="description" content="What can you learn from 903 unlabeled human liver transcriptomes? An interactive RNA-seq walkthrough built in one conversation with Claude Code." />
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;500;600;700;900&family=Noto+Serif:ital,wght@0,400;0,500;0,600;0,700;1,400;1,600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css" />
+<link rel="icon" type="image/svg+xml" href="assets/liver.svg" />
+</head>
+<body>
+
+<header class="site-header">
+  <div class="site-header__inner">
+    <a class="brand" href="#" aria-label="903 Strangers' Livers">
+      <img src="assets/liver.svg" alt="" aria-hidden="true" />
+      <span class="brand__wordmark">903 Strangers' Livers</span>
+    </a>
+    <nav class="site-nav">
+      <a href="#act-one">Act I</a>
+      <a href="#act-two">Act II</a>
+      <a href="#colophon">Colophon</a>
+      <a href="#conversation">The conversation</a>
+    </nav>
+  </div>
+</header>
+
+<main>
+
+<!-- ============================================================ -->
+<!--  HERO                                                          -->
+<!-- ============================================================ -->
+<section class="hero">
+  <div class="hero__grid" id="hero-grid" aria-hidden="true"></div>
+  <div class="hero__content">
+    <p class="kicker">An exploratory analysis · Built with Claude Code</p>
+    <h1 class="hero__title">
+      <span class="hero__title-line">903 Strangers'</span>
+      <span class="hero__title-line hero__title-line--accent">Livers</span>
+    </h1>
+    <p class="hero__dek">
+      What can you learn from a pile of unlabeled genomic data?
+      Someone handed us a 79-megabyte file and a one-sentence
+      description. Here's what the data said when we asked it to
+      speak for itself.
+    </p>
+    <p class="hero__scroll">↓ Scroll to begin</p>
+  </div>
+</section>
+
+<!-- ============================================================ -->
+<!--  ACT I                                                         -->
+<!-- ============================================================ -->
+<section id="act-one" class="act-marker">
+  <div class="act-marker__inner">
+    <p class="act-marker__label">Act I</p>
+    <h2 class="act-marker__title">A blind exploration</h2>
+    <p class="act-marker__lede">
+      First we pretend we know nothing. The only fact we allow
+      ourselves is the filename: <code>human_liver.tsv</code>.
+      Everything else we'll make the data prove.
+    </p>
+  </div>
+</section>
+
+<!-- ---- Section 1: the grid hook ---- -->
+<section class="prose" id="s1">
+  <p class="paragraph">
+    Someone handed you a file called <code>human_liver.tsv</code>.
+    That's all you know about it. It's 79 megabytes. When you
+    unzip it and open it, you find this:
+  </p>
+</section>
+
+<figure class="figure figure--full" data-fig="grid">
+  <div class="figure__canvas" id="fig-grid"></div>
+  <figcaption class="figure__caption">
+    <strong>903 columns.</strong> Each column is one person's liver —
+    or at least a piece of it, flash-frozen and sent to a sequencing machine.
+    Each row is one of 35,238 human genes. Every cell is a count of how
+    many times that gene's messenger RNA was observed in that sample.
+  </figcaption>
+</figure>
+
+<section class="prose">
+  <p class="paragraph">
+    No names. No diagnoses. No timepoints. No tissue sub-region.
+    No demographics. No treatment. Just
+    <strong><span data-stat="total-cells">31.8 million</span> numbers</strong>
+    and a promise that a liver was involved.
+  </p>
+  <p class="paragraph">
+    This is more normal than it sounds. Most public RNA-seq data on
+    Earth looks exactly like this: a giant rectangular matrix with
+    opaque sample IDs and whatever story the original scientists
+    remembered to upload alongside it. Sometimes that story is rich.
+    Often it's missing.
+  </p>
+  <p class="paragraph">
+    We're going to work through the data the way a careful
+    bioinformatician would on a first date with a new dataset — not
+    to prove a hypothesis, but to find out what questions are even
+    askable. Think of it as an exploratory diagnostic.
+  </p>
+</section>
+
+<!-- ---- Section 2: scale / dynamic range ---- -->
+<section class="prose">
+  <h3 class="section-title">A very large pile of numbers</h3>
+  <p class="paragraph">
+    The numbers are not gentle. They range from zero to
+    <strong>9.4 million</strong>. Most of them are zero —
+    <span data-stat="zero-frac">61.7%</span> of the matrix is empty.
+    The ones that aren't zero span seven orders of magnitude. And
+    the column totals vary wildly: the quietest sample has
+    <strong>107,000 total reads</strong>; the loudest has
+    <strong>132 million</strong>. That's a
+    <strong>1,236× difference</strong> in raw signal.
+  </p>
+</section>
+
+<figure class="figure figure--wide" data-fig="matrix">
+  <div class="figure__canvas" id="fig-matrix"></div>
+  <figcaption class="figure__caption">
+    A 30-gene × 50-sample slice of the raw count matrix. Each cell
+    is colored by log-scale count: paler cells are zero or
+    near-zero, deeper cells are counts in the millions.
+    <em>Hover any cell</em> to see the raw value. Notice how many
+    cells are simply empty.
+  </figcaption>
+</figure>
+
+<section class="prose">
+  <p class="paragraph">
+    Before we can compare samples to each other, we have to do
+    something about this. That something is called
+    <em>normalization</em> and it's the most important pre-flight
+    check in the whole workflow. But first, a quick sanity question.
+  </p>
+</section>
+
+<!-- ---- Section 3: top genes ---- -->
+<section class="prose">
+  <h3 class="section-title">What genes are loudest?</h3>
+  <p class="paragraph">
+    Let's start with the dumbest possible question: when we sort
+    every gene in the file by median expression across all 903
+    samples, what floats to the top?
+  </p>
+</section>
+
+<figure class="figure figure--wide" data-fig="top-genes">
+  <div class="figure__canvas" id="fig-top-genes"></div>
+  <figcaption class="figure__caption">
+    Top 50 genes by median log<sub>2</sub>(CPM+1) across 903 samples.
+    Bars highlighted in emerald are canonical hepatocyte-secretome
+    genes — proteins the liver makes and ships into the blood.
+    <em>Hover a bar</em> for annotation.
+  </figcaption>
+</figure>
+
+<section class="prose">
+  <p class="paragraph">
+    The very top of the list is dominated by mitochondrial genes
+    (<code>MT-CO1</code>, <code>MT-ND4</code>, <code>MT-CYB</code>)
+    and ribosomal housekeepers. That's expected — they're always
+    loud in bulk RNA-seq because every cell makes tons of them.
+    It's what comes <em>next</em> that's interesting.
+  </p>
+  <p class="paragraph">
+    <strong>Eleven</strong> of the top 50 most-expressed genes are
+    textbook hepatocyte-secretome markers: <code>ALB</code> (albumin, the
+    most abundant protein in your blood), <code>SERPINA1</code>
+    (alpha-1 antitrypsin), <code>TF</code> (transferrin),
+    <code>HP</code> (haptoglobin), <code>APOB</code> (apolipoprotein B,
+    the backbone of LDL), the fibrinogens (<code>FGA</code>,
+    <code>FGB</code>, <code>FGG</code>), <code>APOA1</code>,
+    <code>APOA2</code>, and <code>TTR</code>. These are the proteins
+    hepatocytes are <em>famous</em> for manufacturing and shipping into
+    the bloodstream.
+  </p>
+  <p class="paragraph emphatic">
+    We haven't used the filename yet. We've only asked the data
+    which genes it's loudest about. And the data just confirmed
+    it's liver.
+  </p>
+  <p class="paragraph">
+    But hidden inside that reassuring answer is a loose thread:
+    <code>ALB</code>'s <em>minimum</em> value across these 903 samples
+    is <strong>zero</strong>. At least one of these "liver" samples
+    has no detectable albumin mRNA at all. That's not a liver cell.
+    Hold onto that thread; we'll pull it in Act II.
+  </p>
+</section>
+
+<!-- ---- Section 4: normalization slider ---- -->
+<section class="prose">
+  <h3 class="section-title">Why raw counts lie</h3>
+  <p class="paragraph">
+    Here are two of those 903 samples — picked because one has a
+    tiny library (<span data-norm="small-lib">339,099</span> total reads)
+    and the other has a huge one (<span data-norm="large-lib">52,709,047</span>
+    total reads). That's a <strong>155×</strong> difference in
+    sequencing depth. If you compared their albumin counts directly…
+  </p>
+</section>
+
+<figure class="figure figure--wide" data-fig="norm">
+  <div class="figure__canvas" id="fig-norm">
+    <div class="norm-controls">
+      <label class="norm-label">
+        <input type="range" id="norm-slider" min="0" max="2" step="1" value="0" />
+        <span class="norm-steps" aria-hidden="true">
+          <span data-step="0" class="is-active">Raw counts</span>
+          <span data-step="1">Counts per million</span>
+          <span data-step="2">log₂(CPM + 1)</span>
+        </span>
+      </label>
+    </div>
+    <div id="fig-norm-chart"></div>
+  </div>
+  <figcaption class="figure__caption">
+    Twelve canonical hepatocyte genes compared across two samples
+    with vastly different library sizes. <em>Drag the slider</em>
+    through raw counts → counts-per-million → log<sub>2</sub>(CPM+1).
+    Watch the samples go from "hilariously incomparable" to "almost
+    identical."
+  </figcaption>
+</figure>
+
+<section class="prose">
+  <p class="paragraph">
+    That transformation — divide by the library size, multiply by a
+    million, add one, take the log — is three lines of code. It's
+    also the single most consequential decision in RNA-seq
+    preprocessing. Every comparison you make after this point
+    lives or dies on whether you normalized honestly.
+  </p>
+  <p class="paragraph">
+    With the samples now comparable, we can ask bigger questions.
+  </p>
+</section>
+
+<!-- ---- Section 5: PCA showpiece ---- -->
+<section class="prose">
+  <h3 class="section-title">Let the data arrange itself</h3>
+  <p class="paragraph">
+    We have 903 samples and a normalized expression value for
+    every gene. Each sample is therefore a single point in a
+    35,238-dimensional space — a geometry no brain has ever
+    intuited. But most of those dimensions are junk: genes that
+    don't vary between samples carry no information. So we keep
+    only the <strong>2,000 most variable</strong> genes and ask
+    a linear-algebra question:
+  </p>
+  <p class="paragraph paragraph--quote">
+    Of all possible flat 2D projections of this 2,000-dimensional
+    cloud, which one preserves the most separation between points?
+  </p>
+  <p class="paragraph">
+    The answer is called the first two principal components. On
+    this dataset:
+    <strong>PC1 captures <span data-stat="pc1-var">36%</span></strong>
+    of the total variance in the data, and
+    <strong>PC2 captures another <span data-stat="pc2-var">14%</span></strong>.
+    Together, a single flat picture captures half the story.
+  </p>
+</section>
+
+<figure class="figure figure--full figure--pca" data-fig="pca">
+  <div class="figure__canvas" id="fig-pca"></div>
+  <figcaption class="figure__caption">
+    Each dot is one of the 903 samples, projected into the PC1–PC2
+    plane. We haven't told the algorithm anything about the samples
+    — the clusters emerge purely from patterns in the expression
+    matrix. <em>Drag to brush</em> a region and the right-hand panel
+    will show which genes define your selection.
+  </figcaption>
+</figure>
+
+<!-- ---- Section 6: loadings ---- -->
+<section class="prose">
+  <h3 class="section-title">What's actually in the axes</h3>
+  <p class="paragraph">
+    PCA is a machine for making low-dimensional pictures, but each
+    axis is also a recipe — a weighted sum of specific genes. The
+    genes with the largest absolute weight on PC1 are the genes
+    that <em>define</em> what it means to move from the left side
+    of the picture to the right side. Look at which ones show up
+    for PC1 and PC2 below, then click a gene name to recolor the
+    scatter by that gene's expression and see which direction it
+    pulls.
+  </p>
+</section>
+
+<figure class="figure figure--wide" data-fig="loadings">
+  <div class="figure__canvas" id="fig-loadings"></div>
+  <figcaption class="figure__caption">
+    Top ± 15 gene loadings for PC1 and PC2. Click a gene to colour
+    the scatter above by its expression; click again to reset.
+  </figcaption>
+</figure>
+
+<!-- ============================================================ -->
+<!--  ACT II                                                        -->
+<!-- ============================================================ -->
+<section id="act-two" class="act-marker act-marker--two">
+  <div class="act-marker__inner">
+    <p class="act-marker__label">Act II</p>
+    <h2 class="act-marker__title">The answer key</h2>
+    <p class="act-marker__lede">
+      We've been pretending we don't know anything about these
+      samples. That's a useful pedagogical lie — it makes you
+      ask better questions — but it's still a lie. Let's break it.
+    </p>
+  </div>
+</section>
+
+<section class="prose">
+  <p class="paragraph">
+    Every one of these 903 samples has a real name in a public
+    database: the GEO sample accession (<code>GSM…</code>). NCBI
+    publishes a rich JSON record for each accession — the original
+    study it came from, the experimenter's notes, often a tissue
+    source and a disease state. We wrote a Python script, fetched
+    metadata for all 903 accessions with polite rate limits, and
+    cached the result.
+  </p>
+  <p class="paragraph">
+    Then came the part that turned out to matter most. The first
+    pass at tagging each sample used regex pattern-matching on the
+    free-text titles and summaries — the kind of "if title contains
+    'HCC' then primary_tag = HCC" rules that look reasonable until
+    you actually audit them. The audit found errors in 53 of the
+    60 source studies, so we replaced the regex with three LLM
+    sub-agents that read every study's full text and applied a
+    controlled vocabulary by hand. <em>That</em> still wasn't
+    good enough — many studies contain multiple sample groups
+    with different biology (the iPSC liver-bud paper also
+    contributes its primary fetal and adult hepatocyte
+    references), and ARCHS4 keyword-searches at the sample level,
+    not the study level. So we did the audit a second time at the
+    per-sample-group granularity. The categories below are the
+    final LLM-curated calls, with one tag per unique sample
+    description within each study.
+  </p>
+</section>
+
+<!-- ---- Section 7: metadata reveal ---- -->
+<figure class="figure figure--wide" data-fig="metabreakdown">
+  <div class="figure__canvas" id="fig-metabreakdown">
+    <div id="meta-disease"></div>
+    <div id="meta-gse"></div>
+  </div>
+  <figcaption class="figure__caption">
+    Left: biological category for each of the 903 samples, hand-curated
+    by parallel LLM sub-agents working at per-sample-group granularity
+    (86 unique groups across 60 studies). Right: number of samples per
+    GEO study of origin. Our 903 samples come from
+    <strong><span data-stat="n-gse">dozens</span> distinct studies</strong>
+    — which means batch effects are going to matter.
+  </figcaption>
+</figure>
+
+<!-- ---- Section 8: PCA recolored ---- -->
+<section class="prose">
+  <h3 class="section-title">Were the clusters right?</h3>
+  <p class="paragraph">
+    Now for the moment of truth. We're going to take the PCA scatter
+    from earlier and recolor it — first by the study each sample
+    came from, then by the disease tag we extracted from the
+    metadata. If our blind clustering matched real biology, we
+    should see structure when we recolor.
+  </p>
+</section>
+
+<figure class="figure figure--full" data-fig="pca-recolor">
+  <div class="figure__canvas" id="fig-pca-recolor">
+    <div class="recolor-controls">
+      <button type="button" data-recolor="none" class="is-active">No colour</button>
+      <button type="button" data-recolor="gse">Colour by study (GSE)</button>
+      <button type="button" data-recolor="disease">Colour by disease tag</button>
+    </div>
+    <div id="fig-pca-recolor-chart"></div>
+  </div>
+  <figcaption class="figure__caption">
+    The same PCA scatter, recolored by metadata we pulled from GEO
+    after the fact. The biological signal and the batch effect are
+    both in there — separating them is, roughly, the entire
+    discipline of differential expression analysis.
+  </figcaption>
+</figure>
+
+<section class="prose">
+  <p class="paragraph">
+    Welcome to RNA-seq's oldest problem. A lot of the structure we
+    saw in the PCA is <em>batch effect</em> — samples cluster by who
+    ran the experiment as much as by what the experiment was
+    studying. A study that used poly-A selection will look
+    systematically different from one that used ribosomal
+    depletion, even if the underlying biology is identical. A
+    study run in 2014 will differ from one run in 2020 because the
+    sequencing chemistry changed.
+  </p>
+  <p class="paragraph">
+    Real biological signal is still in there — fetal-liver samples
+    (remember the albumin-zero thread from earlier? It turns out
+    <strong>217 of the 903 samples are fetal liver tissue</strong>,
+    not adult) form a massive cluster far from the adult tissue
+    samples; HCC drifts in one direction; normal adult livers in
+    another. But it's tangled with the batch structure, and
+    untangling the two is where the actual analytical work lives.
+  </p>
+  <p class="paragraph emphatic">
+    The honest lesson of this dataset is that a PCA reveals
+    <em>structure</em>, not <em>meaning</em>. The meaning comes from
+    knowing what you were measuring.
+  </p>
+</section>
+
+<!-- ---- Section 9: UMAP comparison ---- -->
+<section class="prose">
+  <h3 class="section-title">A different lens: UMAP</h3>
+  <p class="paragraph">
+    PCA is a <em>linear</em> projection. It asks: of all possible flat
+    rotations of this 2,000-dimensional cloud, which one preserves
+    the most variance? That makes the resulting axes globally
+    interpretable — PC1 is a real direction in gene-expression
+    space — but it also means PCA can only capture relationships
+    that can be summarised by straight lines.
+  </p>
+  <p class="paragraph">
+    A non-linear projection like
+    <a href="https://umap-learn.readthedocs.io/" target="_blank" rel="noopener">UMAP</a>
+    asks a different question: which samples are <em>nearest each
+    other</em> in the original 2,000-dimensional space, and how can
+    we lay them out on a plane so that nearest-neighbour
+    relationships are preserved? UMAP often makes clusters look
+    crisper than PCA does — but it pays for that with a brutal
+    distortion of <em>distance</em> between clusters. Two UMAP blobs
+    that look far apart might be neighbours; two that look adjacent
+    might not be.
+  </p>
+  <p class="paragraph">
+    Here's the same 903 samples, the same 2,000 most-variable
+    genes, the same z-scoring — but projected with UMAP instead.
+    Try the same recolouring buttons. The blobs are tighter, the
+    boundaries between cell-line / organoid / tissue / tumour are
+    sharper, and the same batch-effect-vs-biology tension you saw
+    in the PCA shows up here in a slightly different shape.
+  </p>
+</section>
+
+<figure class="figure figure--full" data-fig="umap">
+  <div class="figure__canvas" id="fig-umap">
+    <div class="recolor-controls recolor-controls--umap">
+      <button type="button" data-recolor="none" class="is-active">No colour</button>
+      <button type="button" data-recolor="gse">Colour by study (GSE)</button>
+      <button type="button" data-recolor="disease">Colour by disease tag</button>
+    </div>
+    <div id="fig-umap-chart"></div>
+  </div>
+  <figcaption class="figure__caption">
+    UMAP projection of the same 903 samples × 2,000 genes,
+    parameters <code>n_neighbors = 50</code>,
+    <code>min_dist = 0.0</code>, <code>spread = 0.6</code> —
+    chosen to give a compact, roughly square embedding with no
+    wasted whitespace. Compare with the PCA scatter above: the
+    organoid and cell-line clusters are more visually isolated
+    here, but the relative <em>distances</em> between clusters
+    are no longer meaningful.
+  </figcaption>
+</figure>
+
+<section class="prose">
+  <p class="paragraph">
+    Neither projection is "the" answer. PCA tells you the
+    dominant axes of variation; UMAP tells you which samples are
+    one another's neighbours. Both are diagnostic, neither is
+    truth, and the discipline is in knowing what each one is for.
+  </p>
+</section>
+
+<!-- ============================================================ -->
+<!--  COLOPHON                                                      -->
+<!-- ============================================================ -->
+<section id="colophon" class="colophon">
+  <div class="colophon__inner">
+    <h2 class="colophon__title">How this was made</h2>
+    <p class="colophon__lede">
+      This entire analysis — the Python pipeline, the normalization
+      and PCA, the scrollytelling front-end, the colour palette,
+      the prose you just read — was built in a single conversation
+      with <a href="https://claude.com/claude-code" target="_blank" rel="noopener">Claude Code</a>, a
+      terminal-native coding agent.
+    </p>
+
+    <div class="colophon__grid">
+      <div class="colophon__col">
+        <h3>What the agent did on its own</h3>
+        <ul>
+          <li>Explored the demo folder, read <code>dataset_info.md</code>, extracted the zip and profiled the 79&nbsp;MB TSV.</li>
+          <li>Wrote a Python pipeline using NumPy, pandas and scikit-learn for log-CPM normalization, top-variance gene selection, and PCA on 903&nbsp;samples.</li>
+          <li>Wrote a second script to fetch GEO metadata for all 903 samples via NCBI E-utilities, with batching, rate limiting, a disk cache, and resumable failure handling.</li>
+          <li>Computed a UMAP projection of the same matrix using <code>umap-learn</code> and rendered it side-by-side with PCA so the contrast in geometry is visible.</li>
+          <li>Tagged the 903 samples by biological category in three escalating passes: first a regex heuristic (wrong on 53 of 60 studies), then LLM sub-agents reading study-level text (wrong on the multi-condition studies because ARCHS4 keyword-searches at the sample level), then LLM sub-agents reading <em>per-sample-group</em> text (86 unique groups, hand-classified by reading the title, summary and experimental design of each).</li>
+          <li>Wrote this HTML, CSS and JavaScript — layout, interactions, scroll-triggered animations, the brush-to-select behaviour, all of it.</li>
+        </ul>
+      </div>
+      <div class="colophon__col">
+        <h3>Where the human steered</h3>
+        <ul>
+          <li>Chose the dataset (RNA-seq, not the plate reader).</li>
+          <li>Named the audience (PhD researchers who are not necessarily biologists).</li>
+          <li>Pointed at the ASAP brand reference URL.</li>
+          <li>Approved the two-act narrative structure before any code was written.</li>
+          <li>Picked the shorter, punchier title.</li>
+        </ul>
+      </div>
+    </div>
+
+    <p class="colophon__coda">
+      The punchline is not that an AI can replace the scientist.
+      It's that the scientist can now ask "what would happen if I
+      looked at this a different way?" — and have the answer in
+      minutes instead of weeks. Exploratory analysis used to be
+      expensive. It isn't anymore. The question is what you do
+      with all that newly cheap curiosity.
+    </p>
+
+    <!-- ---- conversation log ---- -->
+    <div class="convo" id="conversation">
+      <h2 class="convo__title">The conversation that built this</h2>
+      <p class="convo__intro">
+        Every line of code, every chart, every label on this page was produced
+        inside a single Claude Code session. Below is the complete prompt log —
+        every message that directed the work, with the context Claude set before
+        responding. Total elapsed time from first prompt to working analysis:
+        about 4.5 hours, most of which was the human away from the keyboard.
+      </p>
+
+      <ol class="convo__timeline">
+
+        <li class="convo__turn">
+          <div class="convo__meta">
+            <span class="convo__num">1</span>
+            <span class="convo__time">03:32 UTC</span>
+            <span class="convo__label convo__label--human">Initial request</span>
+          </div>
+          <blockquote class="convo__msg convo__msg--human">
+            I would like to create an analysis of the data in @demo/. I would prefer this to be in html format with interactive visualizations. Think something you would be proud to see on pudding.cool. Ask me questions.
+          </blockquote>
+        </li>
+
+        <li class="convo__turn">
+          <div class="convo__meta">
+            <span class="convo__num">2</span>
+            <span class="convo__time">03:38 UTC</span>
+            <span class="convo__label convo__label--claude">Claude explored the data</span>
+          </div>
+          <p class="convo__context">
+            Claude read <code>dataset_info.md</code>, profiled the 79 MB TSV, and found two datasets: a 96-well plate reader CSV and an ARCHS4 RNA-seq matrix (35,238 genes × 903 human liver samples from 60 GEO experiments). It proposed two analysis directions and asked six clarifying questions about scope, audience, branding, narrative angle, file structure, and deployment.
+          </p>
+          <blockquote class="convo__msg convo__msg--human">
+            <p>1. Focus on the RNA-seq.</p>
+            <p>2. This is for an ASAP webinar. Match their branding.</p>
+            <p>3. The audience are technical researchers with PhDs. I however am not a biologist lol.</p>
+            <p>4. I don't have a viewpoint in mind. I mainly intend for this to be an educational exercise as to the potential of Claude Code for biological data analysis.</p>
+            <p>5. Multi-file is ok actually. You can use vercel CLI to deploy.</p>
+            <p>6. You can make a new folder named something appropriate, yes.</p>
+          </blockquote>
+        </li>
+
+        <li class="convo__turn">
+          <div class="convo__meta">
+            <span class="convo__num">3</span>
+            <span class="convo__time">03:45 UTC</span>
+            <span class="convo__label convo__label--claude">Claude proposed a narrative arc</span>
+          </div>
+          <p class="convo__context">
+            Claude confirmed there was no metadata bundled with the TSV — just 903 GSM accessions — and laid out a two-act scrollytelling structure ("Act I: blind exploration; Act II: GEO-fetched metadata reveal") with a proposed title and section-by-section plan. It asked about the shorter title, where to find the ASAP logo, and whether there was any source documentation for the dataset.
+          </p>
+          <blockquote class="convo__msg convo__msg--human">
+            <p>There is some metadata from Kaggle about human_liver.tsv: This gene expression was produced using the ARCHS4 RNA-Seq processing pipeline. This dataset contains 903 human derived samples matching the search term "liver". The expression level is reported in gene counts on the gene level.</p>
+            <p><code>https://parkinsonsroadmap.org/</code> is where you can find a logo.</p>
+            <p>The shorter title is good.</p>
+          </blockquote>
+        </li>
+
+        <li class="convo__turn">
+          <div class="convo__meta">
+            <span class="convo__num">4</span>
+            <span class="convo__time">11:15 UTC</span>
+            <span class="convo__label convo__label--human">~7.5 hours later (away from keyboard)</span>
+          </div>
+          <p class="convo__context">
+            Claude built and ran the full Python pipeline (normalization, PCA, GEO metadata fetch), wrote all three frontend files (HTML, CSS, JS), and took a screenshot round to verify the page. It was standing by for next steps.
+          </p>
+          <blockquote class="convo__msg convo__msg--human">
+            The data comes from <code>kaggle.com/datasets/lachmann12/human-liver-rnaseq-gene-expression-903-samples</code>, but the ultimate source is <code>archs4.org</code>. It would be polite to cite that after you scan their contents. You can also remove the logo and instead find a clip art image of a liver to use.
+          </blockquote>
+        </li>
+
+        <li class="convo__turn">
+          <div class="convo__meta">
+            <span class="convo__num">5</span>
+            <span class="convo__time">11:21 – 14:19 UTC</span>
+            <span class="convo__label convo__label--human">Plot refinement (three rounds)</span>
+          </div>
+          <p class="convo__context">
+            Claude had added a brushable PCA chart where selecting a region showed a panel labeled "Direction" and "Aligned genes." The user asked what "Direction" meant, and Claude explained it was the centroid of the brushed selection used as a vector to rank which genes define that region. It offered Option A (rename) or Option B (tooltip).
+          </p>
+          <blockquote class="convo__msg convo__msg--human">
+            Option A sounds good. Can you also add a comparison with UMAP as well as update the "How this was made" to not discuss the ASAP brand assets/logo
+          </blockquote>
+          <p class="convo__context">
+            Claude added UMAP via <code>umap-learn</code> but the embedding had a large outlier cluster stretching the axis.
+          </p>
+          <blockquote class="convo__msg convo__msg--human">
+            The UMAP plot kind of wastes the white space in the plot. Any way to tweak?
+          </blockquote>
+          <p class="convo__context">
+            After experimenting with percentile-clipped axis scaling and pan/zoom transforms, Claude suggested changing the UMAP parameters directly.
+          </p>
+          <blockquote class="convo__msg convo__msg--human">
+            Try tweaking the UMAP settings slightly to get the clusters more tightly packed
+          </blockquote>
+        </li>
+
+        <li class="convo__turn">
+          <div class="convo__meta">
+            <span class="convo__num">6</span>
+            <span class="convo__time">18:40 – 19:20 UTC</span>
+            <span class="convo__label convo__label--human">Disease tag audit (three rounds)</span>
+          </div>
+          <p class="convo__context">
+            The page was complete. The user asked how the sample disease categories had been inferred, and Claude explained the regex pipeline. It offered Option A (audit table) or Option B (LLM relabeling).
+          </p>
+          <blockquote class="convo__msg convo__msg--human">
+            How did you infer the disease tags? I want to double check them
+          </blockquote>
+          <blockquote class="convo__msg convo__msg--human">
+            Go with option B and create the table. Then use sub agents to create your own tag based on LLM reasoning rather than regex
+          </blockquote>
+          <p class="convo__context">
+            Claude ran three parallel sub-agents to relabel all 60 studies by reading study text. But the user noticed that some of the 42 "non-liver" samples might actually be from liver tissue — and ARCHS4 keyword-searches at the <em>sample</em> level, so a study about pancreatic cancer could still contribute its liver-tissue reference samples.
+          </p>
+          <blockquote class="convo__msg convo__msg--human">
+            Are we sure those 42 samples are not from livers? It would be safest to check each sample instead of just labeling the studies
+          </blockquote>
+          <p class="convo__context">
+            Claude investigated and found that 299 samples tagged "iPSC/ESC differentiation" (from a liver-bud paper) were actually the primary fetal and adult hepatocyte reference samples — never iPSC-derived at all. It re-ran the classification at the per-sample-group level (86 unique groups) using three more parallel sub-agents.
+          </p>
+        </li>
+
+        <li class="convo__turn">
+          <div class="convo__meta">
+            <span class="convo__num">7</span>
+            <span class="convo__time">19:49 – 19:53 UTC</span>
+            <span class="convo__label convo__label--human">Color bug + hover tooltips</span>
+          </div>
+          <p class="convo__context">
+            After the per-sample-group relabeling, most of the UMAP dots appeared gray.
+          </p>
+          <blockquote class="convo__msg convo__msg--human">
+            So many of the colors look grey on the plot. Why are they missing?
+          </blockquote>
+          <p class="convo__context">
+            Claude diagnosed it: the browser was serving a cached <code>samples_meta.json</code> from before the relabeling. The four categories that still showed color (HCC, cholangiocarcinoma, NAFLD/NASH, fibrosis) were the only ones whose tag names hadn't changed between the old regex vocabulary and the new LLM one. Cache-busting query strings were added to all JSON fetches.
+          </p>
+          <blockquote class="convo__msg convo__msg--human">
+            Can you add ability to see more about the samples on hovering over their data points?
+          </blockquote>
+          <p class="convo__context">
+            Claude added a nearest-neighbour quadtree hover to the Act II PCA and UMAP charts, with a rich navy tooltip showing the disease chip, GSM accession, study title, sample title, summary, and the LLM rationale. A subtle bug (tooltip referenced in the zoom handler before it was declared) was caught in a headless-browser eval session.
+          </p>
+        </li>
+
+        <li class="convo__turn">
+          <div class="convo__meta">
+            <span class="convo__num">8</span>
+            <span class="convo__time">19:56 UTC</span>
+            <span class="convo__label convo__label--human">Deployment + this section</span>
+          </div>
+          <blockquote class="convo__msg convo__msg--human">
+            Can you deploy the analysis folder app to vercel?
+          </blockquote>
+          <blockquote class="convo__msg convo__msg--human">
+            Would you mind integrating the analysis-prompts.md content into the page? I want readers to be able to see how I used Claude Code to build it.
+          </blockquote>
+          <p class="convo__context">
+            You're reading the result of that last message right now.
+          </p>
+        </li>
+
+      </ol>
+    </div>
+    <!-- ---- /conversation log ---- -->
+
+    <footer class="site-footer">
+      <p class="site-footer__row">
+        <strong>Data.</strong>
+        Lachmann A, Torre D, Keenan AB, Jagodnik KM, Lee HJ, Wang L, Silverstein MC, Ma'ayan A.
+        "Massive mining of publicly available RNA-seq data from human and mouse."
+        <em>Nature Communications</em> 9, 1366 (2018).
+        <a href="https://doi.org/10.1038/s41467-018-03751-6">doi.org/10.1038/s41467-018-03751-6</a>.
+        The 903-sample human-liver subset was redistributed by Alexander Lachmann on Kaggle
+        (<a href="https://www.kaggle.com/datasets/lachmann12/human-liver-rnaseq-gene-expression-903-samples/data">CC0</a>);
+        the underlying processed counts come from the
+        <a href="https://maayanlab.cloud/archs4/">ARCHS4</a> resource at the
+        Ma'ayan Lab, Mount Sinai. Sample-level metadata fetched live from
+        <a href="https://www.ncbi.nlm.nih.gov/geo/">NCBI GEO</a> via E-utilities.
+      </p>
+      <p class="site-footer__row">
+        <strong>Tools.</strong>
+        Python pipeline (NumPy, pandas, scikit-learn) for normalization and PCA.
+        Visualization in vanilla HTML and JavaScript with
+        <a href="https://d3js.org/">D3 v7</a>. Typography is
+        <a href="https://fonts.google.com/specimen/Noto+Serif">Noto Serif</a> and
+        <a href="https://fonts.google.com/specimen/Noto+Sans">Noto Sans</a>.
+        Liver illustration by Mikael Häggström, M.D., released to the public domain via
+        <a href="https://commons.wikimedia.org/wiki/File:Liver.svg">Wikimedia Commons</a>.
+      </p>
+      <p class="site-footer__row">
+        <strong>For ASAP.</strong>
+        Built for the Aligning Science Across Parkinson's webinar
+        <em>Best Practices for AI in Scientific Research</em> as a worked example
+        of agentic exploratory data analysis.
+      </p>
+    </footer>
+  </div>
+</section>
+
+</main>
+
+<script type="module" src="main.js"></script>
+</body>
+</html>

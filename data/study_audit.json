@@ -1,0 +1,782 @@
+[
+  {
+    "gse": "GSE96981",
+    "n_samples": 299,
+    "current_regex_tag": "organoid",
+    "study_title": "Multilineage communication regulates human liver bud self-organization from pluripotency II",
+    "study_summary": "Conventional 2-D differentiation from pluripotency fails to recapitulate cell interactions occurring during organogenesis. 3-D organoids generate complex organ-like tissues, however it is unclear how heterotypic interactions impact lineage identity. Here we use single-cell RNA-seq to reconstruct hepatocyte-like lineage progression from pluripotency in 2-D culture. We then derive 3-D liver bud (LB) organoids by reconstituting hepatic, stromal, and endothelial interactions, and deconstruct heterogeneity during LB development. We find that LB hepatoblasts diverge from the 2-D lineage, and express epithelial migration signatures characteristic of organ budding. We benchmark 3-D LBs against fetal and adult human liver scRNA-seq data, and find a striking correspondence between the 3-D LB and fetal liver cells. We use a receptor-ligand pairing analysis and a high-throughput inhibitor assay to interrogate signaling in LBs, and show that VEGF crosstalk potentiates endothelial network formation and hepatoblast differentiation. Our molecular dissection reveals interlineage communication regulating organoid development, and illuminates previously inaccessible aspects of human liver development.",
+    "overall_design": "",
+    "taxon": "Mus musculus; Homo sapiens",
+    "sample_titles_sample": "A10A_fetalHep2_fetal17 | A10B_fetalHep1_fetal10 | A10B_fetalHep2_fetal10 | A11A_fetalHep1_fetal17 | A11A_fetalHep2_fetal17 | A11B_fetalHep1_fetal10 | A12A_fetalHep2_fetal17 | A12B_fetalHep1_fetal10 | (+291 more)",
+    "all_tags_in_study": {
+      "organoid": 299
+    }
+  },
+  {
+    "gse": "GSE81252",
+    "n_samples": 174,
+    "current_regex_tag": "stem cell / differentiation",
+    "study_title": "Multilineage communication regulates human liver bud self-organization from pluripotency I",
+    "study_summary": "Conventional 2-D differentiation from pluripotency fails to recapitulate cell interactions occurring during organogenesis. 3-D organoids generate complex organ-like tissues, however it is unclear how heterotypic interactions impact lineage identity. Here we use single-cell RNA-seq to reconstruct hepatocyte-like lineage progression from pluripotency in 2-D culture. We then derive 3-D liver bud (LB) organoids by reconstituting hepatic, stromal, and endothelial interactions, and deconstruct heterogeneity during LB self-organization. We find that LB hepatoblasts differentiate towards hepatocyte fate, and in addition express epithelial migration signatures characteristic of organ budding. We identify hypoxia and inflammation signatures in endothelial and mesenchymal cells, which we suggest induce LB vasculogenesis. We use network analysis to predict autocrine and paracrine signaling in LBs, and show that VEGF crosstalk potentiates endothelial network formation and hepatoblast differentiation. Our molecular dissection reveals inter-lineage communication that is required for self-organization, and illuminates previously inaccessible aspects of human organ development and regeneration.",
+    "overall_design": "",
+    "taxon": "Homo sapiens",
+    "sample_titles_sample": "lb1_A1 | lb1_A12 | lb1_A4 | lb1_A6 | lb1_A9 | lb1_B10 | lb1_B12 | lb1_B5 | (+166 more)",
+    "all_tags_in_study": {
+      "stem cell / differentiation": 174
+    }
+  },
+  {
+    "gse": "GSE84346",
+    "n_samples": 46,
+    "current_regex_tag": "hepatitis",
+    "study_title": "Transcriptional response to hepatitis C virus infection and interferon alpha treatment in the human liver",
+    "study_summary": "Hepatitis C virus (HCV) is widely used to investigate host-virus interactions and cellular responses to infection have been extensively studied in vitro. In human liver, interferon (IFN) stimulated gene expression can mask direct transcriptional responses to virus infection. To better characterize the direct effects of HCV infection in vivo, we analyze the transcriptomes of HCV-infected patients lacking an activated endogenous IFN system. We show that the expression changes observed in these patients predominantly reflect immune cell infiltrates rather than changes in cell-intrinsic metabolic pathways. We also investigate the transcriptomes of patients with endogenous IFN activation, which paradoxically cannot eradicate viral infection. We find that most IFN-stimulated genes (ISGs) are induced by both the endogenous IFN system and by recombinant IFN therapy, but with significantly higher induction levels in the latter. We conclude that the innate host immune response in chronic hepatitis C is too weak to clear the virus.",
+    "overall_design": "",
+    "taxon": "Homo sapiens",
+    "sample_titles_sample": "A584 | A584_2 | A609 | A609_2 | A616_B2 | A616_OCT | A707 | A707_2 | (+38 more)",
+    "all_tags_in_study": {
+      "hepatitis": 46
+    }
+  },
+  {
+    "gse": "GSE84073",
+    "n_samples": 31,
+    "current_regex_tag": "HCC",
+    "study_title": "Patient-derived organoid cultures model human primary liver cancer in vitro",
+    "study_summary": "The study of human liver cancer has been hampered by the lack of reliable models that faithfully recapitulate the physiopathology of the patient\u2019s original tumour ex vivo. Here, we describe the first culture system to allow the establishment and long-term expansion of human primary liver cancer (PLC) organoids (called tumoroids) from the three most common PLC subtypes: Hepatocellular carcinoma (HCC), Cholangiocarcinoma (CC) and mixed HCC/CC tumours (CHC). We evaluated whether tumoroid lines maintain the expression profile and the genomic landscape of the original tumor they derived from by performing genome-wide (RNAseq/WES) analyses before and after culture. These analyses reveal that the cultures closely recapitulate the gene expression and the mutational landscape of the original tumor, allowing discrimination between different tumor subtypes (HCC, CHC, CC).",
+    "overall_design": "",
+    "taxon": "Homo sapiens",
+    "sample_titles_sample": "CC1-Organoid_1 [RNA-Seq] | CC1-Organoid_a [RNA-Seq] | CC1-Organoid_b [RNA-Seq] | CC1-Organoid_c [RNA-Seq] | CC1-Tissue_1 [RNA-Seq] | CC1-Tissue_2 [RNA-Seq] | CC2-Tissue [RNA-Seq] | CC3-Organoid [RNA-Seq] | (+23 more)",
+    "all_tags_in_study": {
+      "HCC": 31
+    }
+  },
+  {
+    "gse": "GSE104766",
+    "n_samples": 30,
+    "current_regex_tag": "normal",
+    "study_title": "New insights into diagnosis and therapeutic options for proliferative hepatoblastoma",
+    "study_summary": "Surgery and cisplatin-based treatment of hepatoblastoma (HB) currently guarantee the survival of 70-80% of patients. However, some important challenges remain in diagnosing high risk tumors and identifying relevant targetable pathways offering new therapeutic avenues. Previously, two molecular subclasses of hepatoblastoma tumors have been described, namely C1 and C2; C2 being the subgroup with the poorest prognosis, a more advanced tumor stage and the worst overall survival rate. An associated 16-gene signature to discriminate the two tumoral subgroups was proposed but it has not been transferred into clinical routine. To address these issues we performed RNA sequencing of 25 tumors and matched normal liver samples from patients. The transcript profiling separated HB into three distinct subgroups named C1, C2A and C2B, identifiable by a concise four-gene signature: HSD17B6, ITGA6, TOP2A and VIM, with TOP2A being characteristic for the proliferative C2A tumors. Differential expression of these genes was confirmed by RT-qPCR on an expanded cohort and by immunohistochemistry. We also revealed significant overexpression of genes involved in Fanconi Anemia (FA) pathway in the  C2A subgroup. We then investigated the ability of several described FA inhibitors to block growth of HB cells in vitro and in vivo. We demonstrated that bortezomib, an FDA-approved proteasome inhibitor, strongly impairs the proliferation and survival of HB cell lines in vitro, blocks FA pathway associated double-strand DNA repair and significantly impedes HB growth in vivo.  In conclusion, the highly proliferating C2A subtype is characterized by TOP2A gene up-regulation and FA pathway activation and HB therapeutic arsenal could include Bortezomib for the treatment of patients with the most aggressive tumors.",
+    "overall_design": "",
+    "taxon": "Homo sapiens",
+    "sample_titles_sample": "P02_NT | P04_a_NT | P04_c_NT_rep1 | P04_c_NT_rep2 | P04_c_NT_rep3 | P05_NT | P09_NT | P10_NT | (+22 more)",
+    "all_tags_in_study": {
+      "normal": 30
+    }
+  },
+  {
+    "gse": "GSE70503",
+    "n_samples": 24,
+    "current_regex_tag": "unknown",
+    "study_title": "Transcriptomic variation of pharmacogenes in multiple human tissues and lymphoblastoid cell lines",
+    "study_summary": "Variation in the expression level and activity of genes involved in drug disposition and action (\u201cpharmacogenes\u201d) can affect drug response and toxicity, especially when in tissues of pharmacological importance.  Previous studies have relied primarily on microarrays to understand gene expression differences, or have focused on a single tissue or small number of samples. The goal of this study was to use RNA-seq to determine the expression levels and alternative splicing of 389 PGRN pharmacogenes across four tissues (liver, kidney, heart and adipose) and lymphoblastoid cell lines (LCLs), which are used widely in pharmacogenomics studies. Analysis of RNA-seq data from different individuals across the 5 tissues (N = 139 samples) revealed substantial variation in both expression levels and splicing across samples and tissue types. This in-depth exploration also revealed 183 splicing events in pharmacogenes that were previously not annotated.  Overall, this study serves as a rich resource for the research community to inform biomarker and drug discovery and use.",
+    "overall_design": "",
+    "taxon": "Homo sapiens",
+    "sample_titles_sample": "Liver_1 | Liver_10 | Liver_11 | Liver_12 | Liver_13 | Liver_14 | Liver_15 | Liver_16 | (+16 more)",
+    "all_tags_in_study": {
+      "unknown": 24
+    }
+  },
+  {
+    "gse": "GSE94660",
+    "n_samples": 21,
+    "current_regex_tag": "HCC",
+    "study_title": "RNA sequencing (RNA-SEQ) of 21 HBV-HCC patients with non-neoplastic liver and tumor tissues",
+    "study_summary": "Purpose: Chronic Hepatitis B virus (HBV) infection leads to liver fibrosis which is a major risk factor in Hepatocellular carcinoma (HCC) and an independent risk factor of recurrence after HCC tumor resection. HBV genome can be inserted into human genome, and chronic inflammation may trigger somatic mutations. Several studies characterized HBV integration sites in HCC patients with regard to frequently occurring hotspots. However, how HBV integration and other genomic changes contribute to the risk of tumor recurrence with regard to different degree of liver fibrosis is not clearly understood. In this study, we aim to find potential molecular mechanisms underlying tumor recurrence of HBV-associated HCC (HBV-HCC) with different degree of liver fibrosis. Methods: We performed RNA sequencing of 21 pairs of tumor and non-neoplastic liver tissues of HBV-HCC patients and performed comprehensive genomic analysis of our RNAseq data and public available sequencing data related to HBV-HCC. We developed a robust pipeline for sensitively identifying HBV integration sites based on sequencing data. Simulations with sequencing data showed that our method outperformed existing methods.  We also compared SNPs of each sample with SNPs in cancer census database and inferred patient\u2019s pathogenic SNP loads in tumor and non-neoplastic liver tissues. Conclusions: The HBV-integration and pathogenic SNP load patterns for HCC recurrence risk vary depending on liver fibrosis stage, suggesting potentially different tumorigenesis mechanisms for low and high liver fibrosis patients.",
+    "overall_design": "",
+    "taxon": "Homo sapiens",
+    "sample_titles_sample": "Non-neoplastic liver tissue of P105 | Non-neoplastic liver tissue of P106 | Non-neoplastic liver tissue of P112 | Non-neoplastic liver tissue of P131 | Non-neoplastic liver tissue of P138 | Non-neoplastic liver tissue of P140 | Non-neoplastic liver tissue of P152 | Non-neoplastic liver tissue of P157 | (+13 more)",
+    "all_tags_in_study": {
+      "HCC": 21
+    }
+  },
+  {
+    "gse": "GSE104310",
+    "n_samples": 20,
+    "current_regex_tag": "HCC",
+    "study_title": "Gene Expression Profile of human hepatocellular carcinoma by RNA sequencing",
+    "study_summary": "The aim of the present study was to investigate biomarkers in the malignant process of HCC by high throughput sequencing.",
+    "overall_design": "",
+    "taxon": "Homo sapiens",
+    "sample_titles_sample": "2429N | 2429T | 2591N | 2591T | 2634N | 2634T | 2701N | 2701T | (+12 more)",
+    "all_tags_in_study": {
+      "HCC": 20
+    }
+  },
+  {
+    "gse": "GSE63018",
+    "n_samples": 19,
+    "current_regex_tag": "HCC",
+    "study_title": "Genome and transcriptome profiling of fibrolamellar carcinoma [RNA-Seq]",
+    "study_summary": "Fibrolamellar hepatocellular carcinoma (FL-HCC) is a rare variant of HCC that most frequently affects young adults. Because of its rarity and an absence of preclinical models, the molecular biology of FL-HCC remains unclear. Our objective was to analyze chromosomal alterations and dysregulated gene expression in tumor specimens collected at a single center during two decades of experience with FL-HCC.",
+    "overall_design": "",
+    "taxon": "Homo sapiens",
+    "sample_titles_sample": "MC16 | MC17 | MC19 | MC20 | MC22 | MC27 | MC28 | MC30 | (+11 more)",
+    "all_tags_in_study": {
+      "HCC": 19
+    }
+  },
+  {
+    "gse": "GSE97214",
+    "n_samples": 18,
+    "current_regex_tag": "HCC",
+    "study_title": "Transcriptome sequencing identify a recurrent CRYL1-IFT88 chimeric transcript in hepatocellular carcinoma",
+    "study_summary": "We performed transcriptome sequencing for hepatocellular carcinoma (HCC) and adjacent non-tumorous tissues to investigate the molecular basis of HCC. Nine HCC patients were recruited and differentially expressed genes (DEGs) were identified. Candidate fusion transcripts were also identified. Further RT-PCR and Sanger sequencing experiments were performed to validate potential recurrent fusion transcripts in other 54 pairs of tumor and adjacent non-tumor samples. A total of 1943 DEGs were detected, including 690 up-regulated and 1253 down-regulated genes, and enriched in ten pathways, especially cell cycle, DNA replication, p53 and complement and coagulation cascades. Seven candidate fusion genes were detected and CRYL1-IFT88 was successfully validated in the discovery sequencing sample and another 5 tumor samples with the recurrent rate of about 9.52% (6/63). The full length of CRYL1-IFT88 was obtained by 3' and 5' RACE. The function of the fusion transcript is closed to CRYL1 because it contained most of domain of CRYL1. According to the bioinformatics analysis, IFT88, reported as a tumor suppressor, might be seriously depressed in the tumor cell with this fusion because the transcript structure of IFT88 was totally changed. The function depression of IFT88 caused by gene fusion CRYL1-IFT88 might be associated with tumorigenesis or development of HCC.",
+    "overall_design": "",
+    "taxon": "Homo sapiens",
+    "sample_titles_sample": "Highly differentiated P21N | Highly differentiated P21T | Highly differentiated P24N | Highly differentiated P24T | Highly differentiated P40N | Highly differentiated P40T | Moderately differentiated P26N | Moderately differentiated P26T | (+10 more)",
+    "all_tags_in_study": {
+      "HCC": 18
+    }
+  },
+  {
+    "gse": "GSE63420",
+    "n_samples": 14,
+    "current_regex_tag": "cholangiocarcinoma",
+    "study_title": "Massive parallel sequencing uncovers actionable FGFR2-PPHLN1 fusion and ARAF mutations in intrahepatic cholangiocarcinoma",
+    "study_summary": "Intrahepatic cholangiocarcinoma (iCCA) is a fatal bile duct cancer with dismal prognosis and limited therapeutic options. By performing RNA- and exome sequencing analyses we have discovered a novel fusion event, FGFR2-PPHLN1 (16%), and damaging mutations in the ARAF oncogene (11%).",
+    "overall_design": "",
+    "taxon": "Homo sapiens",
+    "sample_titles_sample": "ICC10 (RNA-seq) | ICC11 (RNA-seq) | ICC12 (RNA-seq) | ICC13 (RNA-seq) | ICC14 (RNA-seq) | ICC15 (RNA-seq) | ICC16 (RNA-seq) | ICC17 (RNA-seq) | (+6 more)",
+    "all_tags_in_study": {
+      "cholangiocarcinoma": 14
+    }
+  },
+  {
+    "gse": "GSE107650",
+    "n_samples": 14,
+    "current_regex_tag": "NAFLD/NASH",
+    "study_title": "Low carbohydrate diet study for non-alcoholic fatty liver disease patients",
+    "study_summary": "We performed a short-term dietary intervention with a low-carbohydrate diet in obese subjects with NAFLD",
+    "overall_design": "",
+    "taxon": "Homo sapiens",
+    "sample_titles_sample": "subject1_after_low_carbohydrate_diet | subject1_before_low_carbohydrate_diet | subject2_after_low_carbohydrate_diet | subject2_before_low_carbohydrate_diet | subject3_after_low_carbohydrate_diet | subject3_before_low_carbohydrate_diet | subject4_after_low_carbohydrate_diet | subject4_before_low_carbohydrate_diet | (+6 more)",
+    "all_tags_in_study": {
+      "NAFLD/NASH": 14
+    }
+  },
+  {
+    "gse": "GSE89775",
+    "n_samples": 13,
+    "current_regex_tag": "normal",
+    "study_title": "Loss of EGFR-DDEF1 signaling in metastatic and unresectable hepatoblastoma",
+    "study_summary": "We report that the application of PE sequencing of mRNA in hepatoblastoma patient biopsies effectively discriminates genes that are expressed, poised for expression, or stably repressed, and therefore reflect cell state and lineage potential. Lysine 36 trimethylation marks primary coding and non-coding transcripts, facilitating gene annotation. Trimethylation of lysine 9 and lysine 20 is detected at satellite, telomeric and active long-terminal repeats, and can spread into proximal unique sequences. Lysine 4 and lysine 9 trimethylation marks imprinting control regions. Finally, we show that chromatin state can be read in an allele-specific manner by using single nucleotide polymorphisms. This study provides a framework for the application of comprehensive chromatin profiling towards characterization of diverse mammalian cell populations.",
+    "overall_design": "",
+    "taxon": "Homo sapiens",
+    "sample_titles_sample": "769_NC_S1 | 785_NC_S2 | 791_NC_S3 | Sample_RNAseq_FT10 | Sample_RNAseq_FT11 | Sample_RNAseq_FT12 | Sample_RNAseq_FT13 | Sample_RNAseq_FT14 | (+5 more)",
+    "all_tags_in_study": {
+      "normal": 13
+    }
+  },
+  {
+    "gse": "GSE85223",
+    "n_samples": 13,
+    "current_regex_tag": "organoid",
+    "study_title": "Hepatic differentiation of liver organoids",
+    "study_summary": "We analyzed gene expression profiles of self-organizing, multi-cellular, 3D liver organoids derived by co-culture of induced Pluripotent Stem Cell and stromal progenitors. We report the RNA-seq results of liver organoid at day0, day2, day4, day6 of co-culture. We also report RNA-seq results of constituent of the liver organoid, which are human iPSC at hepatic specification stage, human Mesenchymal stem cells derived from bone marrow, human umbilical vein endothelial cell. As controls, we also report RNS-seq results of un-differentiated human iPSC, human iPSC at definitive endoderm stage, human liver tissue, and primary cultured human hepatocytes isolated from unused donor livers.",
+    "overall_design": "",
+    "taxon": "Homo sapiens",
+    "sample_titles_sample": "Base1 | Base2 | Base3 | NHL | TkLB10 | TkLB11 | TkLB12 | TkLB13 | (+5 more)",
+    "all_tags_in_study": {
+      "organoid": 13
+    }
+  },
+  {
+    "gse": "GSE83322",
+    "n_samples": 12,
+    "current_regex_tag": "unknown",
+    "study_title": "Next Generation Sequencing of liver and subcutaneous fat tissues obtained from obese subjects",
+    "study_summary": "Patients had low calorie diet weight reduction run in prior to the day of surgery. The human liver and subcutaneous fat tissue samples were obtained from 12 obese  subjects undergoing bariatric surgery and then used for the mRNA expression analyses.",
+    "overall_design": "",
+    "taxon": "Homo sapiens",
+    "sample_titles_sample": "L_1008 | L_1011 | L_1036 | L_1038 | L_1040 | L_1045 | L_1054 | L_1055 | (+4 more)",
+    "all_tags_in_study": {
+      "unknown": 12
+    }
+  },
+  {
+    "gse": "GSE90878",
+    "n_samples": 12,
+    "current_regex_tag": "stem cell / differentiation",
+    "study_title": "An erythroid-specific enhancer of ATP2B4 mediates red blood cell hydration and malaria susceptibility [RNA-seq]",
+    "study_summary": "Few genotype-phenotype associations identified by genome-wide association studies (GWAS) have been defined mechanistically, precluding thorough assessment of their impact on human health. We conducted an expression quantitative trait loci (eQTL) mapping analysis in human erythroblasts and found erythroid-specific eQTLs for ATP2B4, the main calcium ATPase of red blood cells (RBC). The same SNPs were previously associated with mean corpuscular hemoglobin concentration (MCHC) and susceptibility to severe malaria infection. We showed that Atp2b4-/- mice demonstrate increased MCHC, confirming ATP2B4 as the causal gene at this GWAS locus. Using CRISPR-Cas9, we fine-mapped the genetic signal to an erythroid-specific enhancer bound by GATA1 and TAL1. These results illustrate the importance to combine transcriptome, epigenome, and genome editing approaches in phenotype-relevant cells to characterize non-coding regulatory elements associated with human complex diseases and traits. Our studies suggest ATP2B4 as a potential target to modulate RBC hydration in erythroid disorders and malaria infection.",
+    "overall_design": "",
+    "taxon": "Homo sapiens",
+    "sample_titles_sample": "Fetal_liver_erythroblast_rep0_RNA-seq | Fetal_liver_erythroblast_rep10_RNA-seq | Fetal_liver_erythroblast_rep11_RNA-seq | Fetal_liver_erythroblast_rep1_RNA-seq | Fetal_liver_erythroblast_rep2_RNA-seq | Fetal_liver_erythroblast_rep3_RNA-seq | Fetal_liver_erythroblast_rep4_RNA-seq | Fetal_liver_erythroblast_rep5_RNA-seq | (+4 more)",
+    "all_tags_in_study": {
+      "stem cell / differentiation": 12
+    }
+  },
+  {
+    "gse": "GSE93629",
+    "n_samples": 12,
+    "current_regex_tag": "fibrosis/cirrhosis",
+    "study_title": "Synectin Promotes Fibrogenesis by Regulating PDGFR Isoforms Through Distinct Mechanisms",
+    "study_summary": "The scaffold protein synectin plays a critical role in the trafficking and regulation of membrane receptor pathways.   As the platelet derived growth factor receptor (PDGFR)  pathway is essential for hepatic stellate cell (HSC) activation and liver fibrosis, we sought to determine the role of synectin on the PDGFR pathway in HSC.  To study the role of synectin in the development of liver fibrosis,  mice with selective deletion of synectin from HSC were generated and found to be protected from fibrosis.  RNAseq revealed that knockdown of synectin in HSC demonstrated reductions in the fibrosis pathway of genes including PDGFR-\u03b2, but not PDGFR-\u03b1.  Chromatin Immunoprecipitation assay of the PDGFR-\u03b2 promoter upon synectin knockdown revealed a pattern of histone marks associated with decreased transcription, dependent on p300.  In contradistinction, synectin was found to regulate PDGFR-\u03b1 through an alternative mechanism: protection from autophagic degradation.  Site directed mutagenesis revealed that ubiquitination of specific PDGFR-\u03b1 lysine residues is responsible for its autophagic degradation.  Furthermore, functional studies showed decreased PDGF dependent proliferation and migration after synectin knockdown.  Finally, human cirrhotic livers demonstrated increased synectin expression.  This work provides insight into differential transcriptional and post-translational mechanisms of synectin regulation of PDGFRs, which are critical to fibrogenesis.",
+    "overall_design": "",
+    "taxon": "Homo sapiens",
+    "sample_titles_sample": "10_synectin_shRNA_vehicle | 11_synectin_shRNA_PDGF | 13_synectin_shRNA_vehicle | 14_synectin_shRNA_PDGF | 16_synectin_shRNA_vehicle | 17_synectin_shRNA_PDGF | 1_ctrl_shRNA_vehicle | 2_ctrl_shRNA_PDGF | (+4 more)",
+    "all_tags_in_study": {
+      "fibrosis/cirrhosis": 12
+    }
+  },
+  {
+    "gse": "GSE83990",
+    "n_samples": 12,
+    "current_regex_tag": "normal",
+    "study_title": "Zone dependent distinctive gene expression profile of the normal human liver tissue",
+    "study_summary": "The regulatory mechanisms that shapes the hepatic zonation is not well understood. In addition, the concept and significance of of hepatic zonation is well established in rodens, however, its relavence to human liver biology remain elusive. We conducted a comprehensive transcriptome analysis of each zonation within normal human liver vis Laser Capture Microdissection approach. Here,  we report a poly A RNA sequencing data of the individual zone of liver tissue as well as the whole liver of the corresponding subjects.",
+    "overall_design": "",
+    "taxon": "Homo sapiens",
+    "sample_titles_sample": "LM1-WL | LM1-Z1 | LM1-Z2 | LM1-Z3 | LM2-WL | LM2-Z1 | LM2-Z2 | LM2-Z3 | (+4 more)",
+    "all_tags_in_study": {
+      "normal": 12
+    }
+  },
+  {
+    "gse": "GSE104873",
+    "n_samples": 10,
+    "current_regex_tag": "unknown",
+    "study_title": "RNA Seq of Alagille liver biopsies",
+    "study_summary": "Needle biopsies were performed to obtain liver samples from patients for clinical purposes from patients with Alagille syndrome. A small portion was snap frozen and later used for RNA sequencing analysis. Needle biospies from 5 patients with other liver disorders were included as controls.",
+    "overall_design": "",
+    "taxon": "Homo sapiens",
+    "sample_titles_sample": "Liver_ALGS1 | Liver_ALGS2 | Liver_ALGS3 | Liver_ALGS4 | Liver_ALGS5 | Liver_Ctrl1 | Liver_Ctrl2 | Liver_Ctrl3 | (+2 more)",
+    "all_tags_in_study": {
+      "unknown": 10
+    }
+  },
+  {
+    "gse": "GSE102188",
+    "n_samples": 8,
+    "current_regex_tag": "unknown",
+    "study_title": "RNA-sequencing of human liver tissue",
+    "study_summary": "We performed quadruplicate RNA-sequencing on two human livers",
+    "overall_design": "",
+    "taxon": "Homo sapiens",
+    "sample_titles_sample": "SL147673 | SL147674 | SL147675 | SL147676 | SL147677 | SL147678 | SL147679 | SL147680",
+    "all_tags_in_study": {
+      "unknown": 8
+    }
+  },
+  {
+    "gse": "GSE68086",
+    "n_samples": 7,
+    "current_regex_tag": "normal",
+    "study_title": "RNA-seq of tumor-educated platelets enables blood-based pan-cancer, multiclass and molecular pathway cancer diagnostics",
+    "study_summary": "We report RNA-sequencing data of 283 blood platelet samples, including 228 tumor-educated platelet (TEP) samples collected from patients with six different malignant tumors (non-small cell lung cancer, colorectal cancer, pancreatic cancer, glioblastoma, breast cancer and hepatobiliary carcinomas). In addition, we report RNA-sequencing data of blood platelets isolated from 55 healthy individuals. This dataset highlights the ability of TEP RNA-based 'liquid biopsies' in patients with several types with cancer, including the ability for pan-cancer, multiclass cancer and companion diagnostics.",
+    "overall_design": "",
+    "taxon": "Homo sapiens",
+    "sample_titles_sample": "Blood_Platelets_Chol-292 | Blood_Platelets_Chol-316 | Blood_Platelets_Chol-341 | Blood_Platelets_Chol-376 | Blood_Platelets_Chol-379 | Blood_Platelets_Liver-297 | Blood_Platelets_Liver-366",
+    "all_tags_in_study": {
+      "normal": 7
+    }
+  },
+  {
+    "gse": "GSE100327",
+    "n_samples": 6,
+    "current_regex_tag": "cell line",
+    "study_title": "RNA-sequencing profiles of five different pancreas cancer cell lines that were engineered to express a form of the basic helix-loop-helix transcription factor, E47, that localizes to the nucleus in response to tamoxifen.",
+    "study_summary": "E47 had been shown previously to inhibit cell cycle progression in pancreas cancer cell lines. This study was designed to identify global changes in gene expression that occurred in response to E47 with the goal of identifying molecular mechanisms involved inE47-mediated inhibition of the cell cycle.",
+    "overall_design": "",
+    "taxon": "Homo sapiens",
+    "sample_titles_sample": "1334/E47 NT1 | 1334/E47 NT2 | 1334/E47 NT3 | 1334/E47 WT1 | 1334/E47 WT2 | 1334/E47 WT3",
+    "all_tags_in_study": {
+      "cell line": 6
+    }
+  },
+  {
+    "gse": "GSE99697",
+    "n_samples": 6,
+    "current_regex_tag": "HCC",
+    "study_title": "Iron response of HepG2 cells",
+    "study_summary": "RNA-seq of HepG2 cells in response to iron",
+    "overall_design": "",
+    "taxon": "Homo sapiens",
+    "sample_titles_sample": "Ctrl_iron_1 | Ctrl_iron_2 | High_iron_heavy_1 | High_iron_heavy_2 | Low_iron_medium_1 | Low_iron_medium_2",
+    "all_tags_in_study": {
+      "HCC": 6
+    }
+  },
+  {
+    "gse": "GSE98060",
+    "n_samples": 6,
+    "current_regex_tag": "unknown",
+    "study_title": "RNA expression profiles from HUVECs overexpressing adenovirally delivered HIF1a and HIF2a proteins",
+    "study_summary": "RNA-Seq analysis was performed from human umbilical vein endothelial cells exposed to constitutively active HIF1a and HIF2a overexpression",
+    "overall_design": "",
+    "taxon": "Homo sapiens",
+    "sample_titles_sample": "RNA-Seq_HUVEC_AdHIF1a_rep1 | RNA-Seq_HUVEC_AdHIF1a_rep2 | RNA-Seq_HUVEC_AdHIF1a_rep3 | RNA-Seq_HUVEC_AdHIF2a_rep1 | RNA-Seq_HUVEC_AdHIF2a_rep2 | RNA-Seq_HUVEC_AdHIF2a_rep3",
+    "all_tags_in_study": {
+      "unknown": 6
+    }
+  },
+  {
+    "gse": "GSE101343",
+    "n_samples": 5,
+    "current_regex_tag": "stellate cell",
+    "study_title": "RNA sequencing to compare gene expession in hepatic stellate cells on a soft (400 Pa) and stiff (25000 Pa) polyacrylamide hydrogels",
+    "study_summary": "Primary human hepatic stellate cells (HSCs) isolated from healthy patients were purchased from Sciencell.  They were seeded on either 400 Pa or 25000 Pa polyacrylamide hydrogels for 2 days and collected for RNA isolation.  The goal of this study is to determine genes transcriptionally regulated by a stiff matrix. 2 RNA samples of HSCs on 400 Pa and 3 RNA samples of HSCs on 25600 Pa were sent to the University of Minnesota Genomics Center for RNA sequencing.",
+    "overall_design": "",
+    "taxon": "Homo sapiens",
+    "sample_titles_sample": "25600-1 | 25600-2 | 25600-3 | 400-1 | 400-2",
+    "all_tags_in_study": {
+      "stellate cell": 5
+    }
+  },
+  {
+    "gse": "GSE73708",
+    "n_samples": 4,
+    "current_regex_tag": "normal",
+    "study_title": "Gene expression analysis of human hepatocellular cancers",
+    "study_summary": "Gene expression profiling was carried out in 4 matched human hepatocellular cancer samples/normal liver smapls, and 4 human hepatocellular cancer samples to characterize the molecular mechanisms relevant to the etiology of human hepatocellular cancer development.",
+    "overall_design": "",
+    "taxon": "Homo sapiens",
+    "sample_titles_sample": "Sample_9128-N | Sample_9194-N | Sample_9195-N | Sample_9401-N",
+    "all_tags_in_study": {
+      "normal": 4
+    }
+  },
+  {
+    "gse": "GSE98710",
+    "n_samples": 4,
+    "current_regex_tag": "stellate cell",
+    "study_title": "An in vitro human liver model by iPSC-derived parenchymal and non-parenchymal cells",
+    "study_summary": "We have established culture systems to generate liver progenitor cells (LPCs), liver sinusoidal endothelial cells (LSECs), and hepatic stellate cells (HSCs) from hiPSCs. Then, we established co-culture system of hiPSC-derived liver cells and performed RNA-seq of hiPSC-derived liver model.",
+    "overall_design": "",
+    "taxon": "Homo sapiens",
+    "sample_titles_sample": "iPS-LPC 1 | iPS-LPC 2 | iPS-liver 1 | iPS-liver 2",
+    "all_tags_in_study": {
+      "stellate cell": 4
+    }
+  },
+  {
+    "gse": "GSE103075",
+    "n_samples": 4,
+    "current_regex_tag": "unknown",
+    "study_title": "Gene expression patterns define the hepatocyte-like cells derived by different strategies [RNA-seq]",
+    "study_summary": "We performed genome-wide gene profiling in hiPSC-Hep and hiHep and compared gene expression patterns in these two types of hepatocyte-like cells.Genes involving in fat digestion and absorption and metabolism enzymes were induced in both hiHeps and hiPSC-Heps. There were also hepatic genes not expressed in either hiPSC-Heps or hiHeps, including cytochrome P450-based metabolism genes and coagulation complements. Interestingly, when genes were clustered based on their hepatic functions, we found that for each hepatic function there were always a few genes not fully induced in either hiPSC-Heps or hiHeps.",
+    "overall_design": "",
+    "taxon": "Homo sapiens",
+    "sample_titles_sample": "PHH 0d | PHH 1d | PHH 2d | PHH 4d",
+    "all_tags_in_study": {
+      "unknown": 4
+    }
+  },
+  {
+    "gse": "GSE87392",
+    "n_samples": 4,
+    "current_regex_tag": "normal",
+    "study_title": "Comparison of Eomes-negative and Eomes-positive human liver NK cells by RNASeq",
+    "study_summary": "We sorted Eomes-negative NK cells (CD3- CD56+ CXCR6- CD16-) and Eomes-positive NK cells (CD3- CD56+ CXCR6+) from total leukocytes isolated from the perfusion fluid of five healthy human livers destined for transplantation. Total RNA was extracted from sorted cells, cDNA generated and RNASeq performed.",
+    "overall_design": "",
+    "taxon": "Homo sapiens",
+    "sample_titles_sample": "T34-CXCR6p | T35-CXCR6n | T38-CXCR6n | TB-CXCR6n",
+    "all_tags_in_study": {
+      "normal": 4
+    }
+  },
+  {
+    "gse": "GSE58708",
+    "n_samples": 3,
+    "current_regex_tag": "unknown",
+    "study_title": "Transcriptomic profiling of sequential tumours from breast cancer patients provides a global view of metastatic expression changes following endocrine therapy",
+    "study_summary": "We profiled primary breast cancer, nodal and liver metastatic tumours from three patients. At the time of initial diagnosis, all three patients presented with luminal breast cancer with adjacent nodal metastasis. They all received 5 years of enodrine therapy and all subsequently developed liver metastasis.",
+    "overall_design": "",
+    "taxon": "Homo sapiens",
+    "sample_titles_sample": "patient1_metastasis | patient2_metastasis | patient3_metastasis",
+    "all_tags_in_study": {
+      "unknown": 3
+    }
+  },
+  {
+    "gse": "GSE61474",
+    "n_samples": 3,
+    "current_regex_tag": "unknown",
+    "study_title": "Quantitative profiling of long noncoding RNAs with targeted RNA sequencing.",
+    "study_summary": "We compared the performance of conventional RNAseq with RNA Capture Sequencing (CaptureSeq) to assemble and quantify known RNA spike-Ins and human transcripts. We find CaptureSeq to be superior for the detection and quantification of the 37% lowest expressed genes, and comparable for the next 45% of moderately expressed genes. CaptureSeq contributes only minor technical variation and measures differential gene expression accurately. We demonstrate these advantages by the targeted sequencing of long noncoding RNAs across 20 human tissues, expanding previous annotations two-fold and simultaneously generating a quantitative atlas of expression. This analysis confirms the use of CaptureSeq as an important method for transcriptional profiling.",
+    "overall_design": "",
+    "taxon": "Homo sapiens",
+    "sample_titles_sample": "Liver RUN1 L001 | Liver RUN1 L002 | Liver RUN2 L006",
+    "all_tags_in_study": {
+      "unknown": 3
+    }
+  },
+  {
+    "gse": "GSE80463",
+    "n_samples": 3,
+    "current_regex_tag": "normal",
+    "study_title": "Divergent expression and metabolic functions of human glucuronosyltransferases through alternative splicing",
+    "study_summary": "Purpose: Maintenance of cellular homeostasis and xenobiotics detoxification relies on the glucuronidation pathway mediated by 19 human UDP-glucuronosyltransferase enzymes (UGTs) encoded by 10 highly homologous genes. Recent evidence suggests that alternative splicing largely expands the human UGT transcriptome. Results: we establish the quantitative portrait of the UGT transcriptome in major metabolic organs and characterize cellular functions of selected alternative UGT isoforms with novel in-frame sequences. Targeted RNA sequencing uncovered that AS significantly shapes the UGT transcriptome, with variants quantitatively representing up to 35% and 60% UGT transcripts in normal and tumoral tissues respectively. Novel distinctive in-frame sequences were present in 20% alternative transcripts, which potentially encode UGT isoforms with distinct structural and functional features. Conclusions: This work exposes the important quantitative and biological significance of alternative UGT expression likely creating unparalleled protein diversity evolving from enzymes to regulators of cell metabolism.",
+    "overall_design": "",
+    "taxon": "Homo sapiens",
+    "sample_titles_sample": "Liver, normal, pool#1 (n=3 donors) | Liver, normal, pool#2 (n=3 donors) | Liver, normal, pool#3 (n=3 donors)",
+    "all_tags_in_study": {
+      "normal": 3
+    }
+  },
+  {
+    "gse": "GSE75606",
+    "n_samples": 3,
+    "current_regex_tag": "unknown",
+    "study_title": "DNA repair in species with extreme lifespan differences",
+    "study_summary": "We compared RNA-seq expression patterns in liver, an organ with high oxidative metabolism and abundant spontaneous DNA damage, from humans, naked mole rats, and mice, differing in maximum lifespan over a range of ~100, 30, and 3 years, respectively, for 130 genes involved in DNA repair. The results show that the longer-lived species, human and naked mole rat, share higher expression of these DNA repair genes, including core genes in several DNA repair pathways. A more systematic approach of signaling pathway analysis (SPA) indicates statistically significant upregulation of several DNA repair signaling pathways in human and naked mole rat compared with mouse.",
+    "overall_design": "",
+    "taxon": "Homo sapiens; Heterocephalus glaber; Mus musculus",
+    "sample_titles_sample": "Human Adult Liver 1 | Human Adult Liver 2 | Human Adult Liver 3",
+    "all_tags_in_study": {
+      "unknown": 3
+    }
+  },
+  {
+    "gse": "GSE81550",
+    "n_samples": 3,
+    "current_regex_tag": "HCC",
+    "study_title": "RNA-Seq expression profiling of hepatocellular carcinoma and adjacent non-tumor liver tissues",
+    "study_summary": "Three pairs of hepatocellular carcinoma and adjacent non-tumor tissues were from 3 male patients suffering from stage I or II HCC with hepatitis C virus background. RNA-Seq libraries were prepared from total RNA using polyA enrichment strategy. The libraries were sequenced on Illumina HiSeq2000 instruments.",
+    "overall_design": "",
+    "taxon": "Homo sapiens",
+    "sample_titles_sample": "Adjacent liver tissue_p1 [0FU_nt] | Adjacent liver tissue_p2 [0MB_nt] | Adjacent liver tissue_p3 [00Q_nt]",
+    "all_tags_in_study": {
+      "HCC": 3
+    }
+  },
+  {
+    "gse": "GSE87240",
+    "n_samples": 2,
+    "current_regex_tag": "HCC",
+    "study_title": "S-adenosyl-methionine treatment selectively block liver cancer cell lines transformation and invasiveness by alterations of cancer- and invasion specific transcriptome and methylome (RNA-Seq)",
+    "study_summary": "S-adenosyl methionine (SAM) is a ubiquitous methyl donor that was reported to have chemo- protective activity against liver cancer, however the molecular footprint of SAM has been unknown. We show here that SAM selectively inhibits growth, transformation and invasiveness of hepatocellular carcinoma cell lines but not normal primary liver cells. Analysis of the transcriptome of SAM treated and untreated cancer cell lines HepG2 and SKHep1 and primary liver cells reveals pathways involved in cancer and metastasis that are upregulated in cancer cells and silenced by SAM. Analysis of the methylome using bisulfite mapping of captured promoters and enhancers reveals that SAM hyper-methylates and silences genes in pathways of growth and metastasis that are activated in liver cancer cells. Depletion of two SAM silencing targets similarly reduces cellular transformation and invasiveness. Taken together these data provide a molecular foundation for SAM as an anticancer agent.",
+    "overall_design": "",
+    "taxon": "Homo sapiens",
+    "sample_titles_sample": "NorHep.ctrl.RNA-seq | NorHep.treatment.RNA-seq",
+    "all_tags_in_study": {
+      "HCC": 2
+    }
+  },
+  {
+    "gse": "GSE77661",
+    "n_samples": 2,
+    "current_regex_tag": "normal",
+    "study_title": "RNA Sequencing Facilitates Quantitative Analysis of Transcriptomes in Human Normal and Cancerous Tissues",
+    "study_summary": "Circular RNAs (circRNAs) represent a novel class of widespread and diverse endogenous RNAs that may regulate gene expression in eukaryotes. However, the regulation and function of human circRNAs remain largely unknown. Here we generate ribosomal-depleted RNA sequencing data from six normal tissues and seven cancers, and detect at least 27,000 circRNA candidates.",
+    "overall_design": "",
+    "taxon": "Homo sapiens",
+    "sample_titles_sample": "Liver_rep1 | Liver_rep2",
+    "all_tags_in_study": {
+      "normal": 2
+    }
+  },
+  {
+    "gse": "GSE69241",
+    "n_samples": 2,
+    "current_regex_tag": "unknown",
+    "study_title": "Analysis of human, chimpanzee, macaque and mouse tissue transcriptomes using Next Generation Sequencing",
+    "study_summary": "We performed deep strand-specific sequencing of poly-adenylated RNA (polyA+ RNAseq) from human, chimpanzee, macaque and mouse tissues, with the goal of detecting numerous non-annotated poorly expressed and antisense genes. We identified thousands of annotated and novel genes, especially in testis. We discovered that ~2% of the human and chimpanzee multiexonic genes were specific from such species.",
+    "overall_design": "",
+    "taxon": "Pan troglodytes; Macaca mulatta; Homo sapiens; Mus musculus",
+    "sample_titles_sample": "human lv 1 | human lv 2",
+    "all_tags_in_study": {
+      "unknown": 2
+    }
+  },
+  {
+    "gse": "GSE63634",
+    "n_samples": 2,
+    "current_regex_tag": "stem cell / differentiation",
+    "study_title": "Epigenomic landscape during organ formation in human early embryos",
+    "study_summary": "Here we present the whole genome ChIP-Seq analyses of a wide variety of histone marks, H3K27ac, H3K4me1, H3K4me3, and H3K27me3 in the brain, heart, and liver, along with the RNA-seq data of these organs of early human embryos 12 weeks after gestation.",
+    "overall_design": "",
+    "taxon": "Homo sapiens",
+    "sample_titles_sample": "Fetal_liver_RNA_seq_rep1 | Fetal_liver_RNA_seq_rep2",
+    "all_tags_in_study": {
+      "stem cell / differentiation": 2
+    }
+  },
+  {
+    "gse": "GSE58557",
+    "n_samples": 2,
+    "current_regex_tag": "stem cell / differentiation",
+    "study_title": "Conversion of Human Gastric Epithelial Cells to Multipotent Endodermal Progenitors using Defined Small Molecules [gene expression]",
+    "study_summary": "Endodermal stem/progenitor cells have diverse potential applications in research and regenerative medicine, so a readily available source could have widespread uses. Here we describe derivation of human induced endodermal progenitor cells (hiEndoPCs) from gastrointestinal epithelial cells using a cocktail of defined small molecules along with support from tissue-specific mesenchymal feeders. The hiEndoPCs show clonal expansion in culture and give rise to hepatocytes, pancreatic endocrine cells, and intestinal epithelial cells when treated with defined soluble molecules directing differentiation. The hiEndoPC-derived hepatocytes are able to rescue liver failure in Fah-/-Rag2-/- mice after transplantation, and, unlike hESCs, transplanted hiEndoPCs do not give rise to teratomas. Since human gastric epithelial cells are readily available from donors of many ages, this conversion strategy can generate clonally expandable cell populations with a variety of potential applications, including personalized drug screening and therapeutic strategies for liver failure and diabetes.",
+    "overall_design": "",
+    "taxon": "Homo sapiens",
+    "sample_titles_sample": "RNA-seq-Fetal-Hep1 | RNA-seq-Fetal-Hep2",
+    "all_tags_in_study": {
+      "stem cell / differentiation": 2
+    }
+  },
+  {
+    "gse": "GSE80126",
+    "n_samples": 2,
+    "current_regex_tag": "cell line",
+    "study_title": "Impact of RNA degradation on fusion detection by RNA-seq",
+    "study_summary": "Purpose: Popular methods for library preparation in RNA-seq such as Illumina TruSeq\u00ae RNA v2 kit use a poly-A pulldown strategy. Such methods can cause loss of coverage at the 5\u2019 end of genes, impacting the ability to detect fusions when used on degraded samples. The goal of this study was to quantify the effects RNA degradation has on fusion detection when using poly-A selected mRNA and to identify the variables involved in this process Methods: Total RNA was extracted from solid tumor tissue and whole blood using the Qiagen\u00ae miRNeasy Micro and Mini kits, respectively. The KU812 cell line was purchased from Sigma-Aldrich (St. Louis, MO) and UHR (Universal Human Reference RNA) was purchased from Agilent (Santa Clara, CA). UHR is a mixture of cell lines derived from breast adenocarcinoma, hepatoblastoma, cervix adenocarcinoma, testis embryonal carcinoma, gliobastoma, melanoma, liposarcoma, histiocytic lymphoma, lymphoblastic leukemia and plasmocytoma. For Degradation experiments, two micrograms of human universal reference RNA (UHR) (Agilent Technologies, Santa Clara, CA) and 1ug of RNA extracted from KU812 cell line (purchased from ATCC) were degraded at 74oC from 1 to 11 minutes in 1 minute intervals, using the NEBNext\u00ae Magnesium RNA Fragmentation Module Kit (NEB, Ipswich, MA). RNA was then purified and concentrated with RNeasy MinElute Cleanup Kit (Qiagen, Valencia, CA). Results: In this study, we designed experiments using artificially degraded RNA from cell lines as well as naturally degraded RNA from tissue samples to quantify the effect RNA degradation has on fusion detection when using poly-A selected RNA libraries We found that both the RNA degradation level and the distance from the 3\u2019 end of a gene, negatively impact the read coverage profile in RNA-seq. Furthermore, the median transcript coverage decreases exponentially as a function of the distance from the 3\u2019 end and there is a linear relationship between the coverage decay rate and the RNA integrity number (RIN). Conclusions: we found that when using poly-A pulldown techniques for library preparation in RNA-seq, the fusion sensitivity is negatively impacted by both sample degradation and distance of the fusion breakpoint from the 3\u2019 end and developed graphs that show such effect. Such graphs can be useful in assessing the fusion sensitivity of RNA-seq in both research and clinical settings",
+    "overall_design": "",
+    "taxon": "Homo sapiens",
+    "sample_titles_sample": "V3-43 | V3-61",
+    "all_tags_in_study": {
+      "cell line": 2
+    }
+  },
+  {
+    "gse": "GSE78562",
+    "n_samples": 2,
+    "current_regex_tag": "unknown",
+    "study_title": "total RNA-seq from liver (ENCSR000AEU)",
+    "study_summary": "RNA-seq on human liver greater than 200bp rRNA depleted total RNA  For data usage terms and conditions, please refer to http://www.genome.gov/27528022 and http://www.genome.gov/Pages/Research/ENCODE/ENCODE_Data_Use_Policy_for_External_Users_03-07-14.pdf",
+    "overall_design": "",
+    "taxon": "Homo sapiens",
+    "sample_titles_sample": "total RNA-seq from liver (ENCLB173ZZZ) | total RNA-seq from liver (ENCLB174ZZZ)",
+    "all_tags_in_study": {
+      "unknown": 2
+    }
+  },
+  {
+    "gse": "GSE88244",
+    "n_samples": 2,
+    "current_regex_tag": "unknown",
+    "study_title": "total RNA-seq from liver (ENCSR388ZNJ)",
+    "study_summary": "RNA-Seq on Adult Human Liver Tissue STL010,STL011  For data usage terms and conditions, please refer to http://www.genome.gov/27528022 and http://www.genome.gov/Pages/Research/ENCODE/ENCODE_Data_Use_Policy_for_External_Users_03-07-14.pdf",
+    "overall_design": "",
+    "taxon": "Homo sapiens",
+    "sample_titles_sample": "total RNA-seq from liver (ENCLB420PUQ) | total RNA-seq from liver (ENCLB869UHR)",
+    "all_tags_in_study": {
+      "unknown": 2
+    }
+  },
+  {
+    "gse": "GSE78569",
+    "n_samples": 2,
+    "current_regex_tag": "stem cell / differentiation",
+    "study_title": "total RNA-seq from liver (ENCSR000AFB)",
+    "study_summary": "The libraries contained in this experiment come from human fetal liver tissue from independent donors. They are stranded PE101 Illumina Hi-Seq RNA-Seq libraries from rRNA-depleted Total RNA > 200 nucleotides in size.  For data usage terms and conditions, please refer to http://www.genome.gov/27528022 and http://www.genome.gov/Pages/Research/ENCODE/ENCODE_Data_Use_Policy_for_External_Users_03-07-14.pdf",
+    "overall_design": "",
+    "taxon": "Homo sapiens",
+    "sample_titles_sample": "total RNA-seq from liver (ENCLB187ZZZ) | total RNA-seq from liver (ENCLB188ZZZ)",
+    "all_tags_in_study": {
+      "stem cell / differentiation": 2
+    }
+  },
+  {
+    "gse": "GSE76098",
+    "n_samples": 2,
+    "current_regex_tag": "primary hepatocytes",
+    "study_title": "Connexin 32-mediated cell-cell communication is essential for hepatic differentiation from human embryonic stem cells",
+    "study_summary": "Gap junction-mediated cell-cell interactions are highly conserved and play essential roles in cell survival, proliferation, differentiation and patterning. We report that Connexin 32 (Cx32)-mediated gap junctional intercellular communication (GJIC) is necessary for human embryonic stem cell-derived hepatocytes (hESC-Heps) during step-wise hepatic lineage restriction and maturation. Vitamin K2, previously shown to promote Cx32 expression in mature hepatocytes, up-regulated Cx32 expression and GJIC activation during hepatic differentiation and maturation, resulting in significant increases of hepatic markers expression and hepatocyte functions. In contrast, negative Cx32 regulator 2-aminoethoxydiphenyl borate blocked hESC-to-hepatocyte maturation and muted hepatocyte functions through disruption of GJIC activities. Dynamic gap junction organization and internalization are phosphorylation-dependent and the p38 mitogen-activated protein kinases pathway (MAPK) can negatively regulate Cxs through phosphorylation-dependent degradation of Cxs. We found that p38 MAPK inhibitor SB203580 improved maturation of hESC-Heps correlating with up-regulation of Cx32; by contrast, the p38 MAPK activator, anisomycin, blocked hESC-Heps maturation correlating with down-regulation of Cx32. These results suggested that Cx32 is essential for cell-cell interactions that facilitate driving hESCs through hepatic-lineage maturation. Regulators of both Cx32 and other members of its pathways maybe used as a promising approach on regulating hepatic lineage restriction of pluripotent stem cells and optimizing their functional maturation.",
+    "overall_design": "",
+    "taxon": "Homo sapiens",
+    "sample_titles_sample": "FHHs-1 | FHHs-2",
+    "all_tags_in_study": {
+      "primary hepatocytes": 2
+    }
+  },
+  {
+    "gse": "GSE76998",
+    "n_samples": 2,
+    "current_regex_tag": "stem cell / differentiation",
+    "study_title": "Transcriptomic Dynamics during Differentiation Process of Human Pluripotent Cells into Hepatocyte-like Cells",
+    "study_summary": "Examine characteristics of hESCs and hiPSCs during directed in-vitro differentiation into HLCs.",
+    "overall_design": "",
+    "taxon": "Homo sapiens",
+    "sample_titles_sample": "Truseq Fetal Liver 17 | Truseq Fetal Liver 18",
+    "all_tags_in_study": {
+      "stem cell / differentiation": 2
+    }
+  },
+  {
+    "gse": "GSE93481",
+    "n_samples": 2,
+    "current_regex_tag": "unknown",
+    "study_title": "polyA mRNA RNA-seq from liver (ENCSR085HNI)",
+    "study_summary": "RNA-seq of human liver tissue. The second technical replicate was performed in May 2015 and was not part of the original Lin et al. 2014 publication (PMID:25413365).  For data usage terms and conditions, please refer to http://www.genome.gov/27528022 and http://www.genome.gov/Pages/Research/ENCODE/ENCODE_Data_Use_Policy_for_External_Users_03-07-14.pdf",
+    "overall_design": "",
+    "taxon": "Homo sapiens",
+    "sample_titles_sample": "polyA mRNA RNA-seq from liver (ENCLB490UAX) | polyA mRNA RNA-seq from liver (ENCLB828MEI)",
+    "all_tags_in_study": {
+      "unknown": 2
+    }
+  },
+  {
+    "gse": "GSE97367",
+    "n_samples": 2,
+    "current_regex_tag": "unknown",
+    "study_title": "BioProject PRJNA381064: Convergent origination of a Drosophila-like dosage compensation mechanism in a reptile lineage (Gene expression profiling in several tetrapod species, bulk tissue RNA-seq)",
+    "study_summary": "In order to study the green anole dosage compensation mechanism we generated strand-specific RNA-seq libraries for a total of 186 samples from the green anole and other representative amniotes (human, mouse, opossum, platypus, chicken and xenopus). Moreover, in order to understand the dosage compensation mechanism of A. carolinensis, we generated ChIP-Seq data for the histone modification H4K16ac and compared levels of acetylation between males and females. Moreover, we reconstructed 7 Y-linked transcripts of Anolis carolinensis based on a male/female subtraction approach and validate these Y sequences using re-sequenced genomes.",
+    "overall_design": "",
+    "taxon": "Xenopus tropicalis; Gallus gallus; Ornithorhynchus anatinus; Mus musculus; Monodelphis domestica; Homo sapiens; Anolis carolinensis",
+    "sample_titles_sample": "Human RNAseq Liver Female1 Adult | Human RNAseq Liver Male1 Adult",
+    "all_tags_in_study": {
+      "unknown": 2
+    }
+  },
+  {
+    "gse": "GSE101770",
+    "n_samples": 2,
+    "current_regex_tag": "stem cell / differentiation",
+    "study_title": "Whole transcriptome analysis of iPSC-derived hepatic organoids cultures",
+    "study_summary": "A heatmap, which focused upon 2458 genes that were involved in stem cell differentiation and liver development, was prepared to visualize the relative relationship between the transcriptomes of iPSCs, PHHs, human liver tissue and HO1. The dendrogram indicates that HO1 is more closely related to liver tissue than to PHHs; this is because cholangiocytes are present in HO1 and liver, but are absent (or rare) in PHHs. Examination of the genes within this heatmap indicated that there was a lack of expression of pluripotent genes in HO1; and that HO1 had an increased level of expression of cellular markers for liver lineages and liver development, which included mature hepatocytes, bile duct cells and NOTCH signaling components. A cluster analysis of 1510 genes indicates that there were major changes in the transcriptome after the cells that were dissociated from an HO1 were transferred from the growth medium into the differentiation medium. As with the HO1s, the gene expression profile of HO2s resembled that of PHHs and human liver. Of importance, the level of expression of mRNAs that are of importance for various human liver functions (ADH4, CYP3A4, TTR, GSRA1, TDO2, GSTA1 and FAH) were markedly increased in HO2s.",
+    "overall_design": "",
+    "taxon": "Homo sapiens",
+    "sample_titles_sample": "LIVER1 | LIVER2",
+    "all_tags_in_study": {
+      "stem cell / differentiation": 2
+    }
+  },
+  {
+    "gse": "GSE30017",
+    "n_samples": 1,
+    "current_regex_tag": "unknown",
+    "study_title": "Widespread regulated alternative splicing of single codons accelerates proteome evolution",
+    "study_summary": "Thousands of human genes contain introns ending in NAGNAG motifs (N any nucleotide), where both NAGs can function as 3' splice sites, yielding isoforms differing by inclusion/exclusion of just three bases. However, the functional importance of NAGNAG alternative splicing is highly controversial. Using very deep RNA-Seq data from sixteen human and eight mouse tissues, we found that approximately half of alternatively spliced NAGNAGs undergo tissue-specific regulation and that regulated events have been selectively retained: alternative splicing of strongly tissue-specific NAGNAGs was ten times as likely to be conserved between species as for non-tissue-specific events. Further, alternative splicing of human NAGNAGs was associated with an order of magnitude increase in the frequency of exon length changes at orthologous mouse/rat exon boundaries, suggesting that NAGNAGs accelerate exon evolution. Together, our analyses show that NAGNAG alternative splicing constitutes a major generator of tissue-specific proteome diversity and accelerates evolution of proteins at exon-exon boundaries.",
+    "overall_design": "",
+    "taxon": "Homo sapiens; Mus musculus",
+    "sample_titles_sample": "human_liver.single",
+    "all_tags_in_study": {
+      "unknown": 1
+    }
+  },
+  {
+    "gse": "GSE81080",
+    "n_samples": 1,
+    "current_regex_tag": "stem cell / differentiation",
+    "study_title": "Differentiation of human embryonic stem cells to HOXA+ hemogenic vasculature that resembles the aorta-gonad-mesonephros",
+    "study_summary": "The production of definitive haematopoietic stem/progenitor cells from human pluripotent stem cells (hPSCs) remains a significant challenge. Using reporter lines to track the endothelial (SOX17) to haematopoietic (RUNX1C) transition, we found that hPSC differentiated in growth factor supplemented serum free medium generated RUNX1C+CD34+ clonogenic cells that homed to the bone marrow, but did not engraft. Compared to repopulation-competent cord blood CD34+ cells, RUNX1C+CD34+ progenitors lacked HOXA gene expression, indicating incorrect mesoderm patterning. This deficiency was ameliorated by a timed pulse of WNT activation combined with ACTIVIN antagonism. Significantly, these HOXA+ cultures now formed complex SOX17+ vessels that produced fetal liver-like haematopoietic cells, similar to the human aorta-gonad-mesonephros (AGM). Comparison of transcriptional profiles of these nascent haematopoietic stem/progenitors with cells isolated from human AGM confirmed significant similarities, consistent with the assignment of our in vitro generated cells to the definitive human haematopoietic lineage. Our findings argue that HOXA codes established early in differentiation predict cellular potential and provide correct cell patterning for the specification of definitive haematopoietic lineages from hPSCs.",
+    "overall_design": "",
+    "taxon": "Homo sapiens",
+    "sample_titles_sample": "FL_HSPC",
+    "all_tags_in_study": {
+      "stem cell / differentiation": 1
+    }
+  },
+  {
+    "gse": "GSE58679",
+    "n_samples": 1,
+    "current_regex_tag": "normal",
+    "study_title": "Human hepatocyte metaplasia in injured humanized mouse livers",
+    "study_summary": "The goal of this experiment was to test whether human hepatocytes could give rise to biliary-like progenitor cells in an in vivo context.  Here Fah-/- Il2ry-/- Rag2-/-NOD mouse livers were humanized with human hepatocytes. Only hepatocytes engraft in the Fah-/- mouse at detectable levels in this model.  Then animals were given chronic liver injury with 0.1% ddc.  After injury we measured human-specific transcripts to determine whether the phenotype of the human cells had changed.  Specifically, we evaluated the relative levels of human biliary duct markers such as Spp1, Sox9, Krt7, etc.  and hepatocyte markers such as Alb, Ttr, Fah, etc.",
+    "overall_design": "",
+    "taxon": "Homo sapiens; Mus musculus",
+    "sample_titles_sample": "Normal_huLiver",
+    "all_tags_in_study": {
+      "normal": 1
+    }
+  },
+  {
+    "gse": "GSE66430",
+    "n_samples": 1,
+    "current_regex_tag": "normal",
+    "study_title": "Expression of gallstone disease-associated genes in non-diseased and diseased gallbladder and liver samples",
+    "study_summary": "Following a large-scale genome-wide association study of gallstone disease, we performed RNA sequencing from tissues of four human gallbladders (3 healthy controls and 1 case with chronic gallstones) and one liver sample from the gallstone case. We aimed to determine the expression patterns of gallstone disease-associated genes in gallbladder and liver, two organs of interest in disease etiology.",
+    "overall_design": "",
+    "taxon": "Homo sapiens",
+    "sample_titles_sample": "Diseased Liver 1",
+    "all_tags_in_study": {
+      "normal": 1
+    }
+  },
+  {
+    "gse": "GSE88121",
+    "n_samples": 1,
+    "current_regex_tag": "unknown",
+    "study_title": "total RNA-seq from right lobe of liver (ENCSR226KML)",
+    "study_summary": "The libraries contained in this Experiment come from tissue sub-sections of a 53 year old female's liver tissue section obtained from GTEx. They are stranded PE101 Illumina Hi-Seq RNA-Seq libraries from rRNA-depleted Total RNA > 200 nucleotides in size.  For data usage terms and conditions, please refer to http://www.genome.gov/27528022 and http://www.genome.gov/Pages/Research/ENCODE/ENCODE_Data_Use_Policy_for_External_Users_03-07-14.pdf",
+    "overall_design": "",
+    "taxon": "Homo sapiens",
+    "sample_titles_sample": "total RNA-seq from right lobe of liver (ENCLB139JXN)",
+    "all_tags_in_study": {
+      "unknown": 1
+    }
+  },
+  {
+    "gse": "GSE88318",
+    "n_samples": 1,
+    "current_regex_tag": "unknown",
+    "study_title": "total RNA-seq from right lobe of liver (ENCSR504QMK)",
+    "study_summary": "The libraries contained in this Experiment come from tissue sub-sections of a 53 year old female's liver tissue section obtained from GTEx. They are stranded PE101 Illumina Hi-Seq RNA-Seq libraries from rRNA-depleted Total RNA > 200 nucleotides in size.  For data usage terms and conditions, please refer to http://www.genome.gov/27528022 and http://www.genome.gov/Pages/Research/ENCODE/ENCODE_Data_Use_Policy_for_External_Users_03-07-14.pdf",
+    "overall_design": "",
+    "taxon": "Homo sapiens",
+    "sample_titles_sample": "total RNA-seq from right lobe of liver (ENCLB381PQE)",
+    "all_tags_in_study": {
+      "unknown": 1
+    }
+  },
+  {
+    "gse": "GSE78296",
+    "n_samples": 1,
+    "current_regex_tag": "stem cell / differentiation",
+    "study_title": "small RNA-seq from liver (ENCSR000AFV)",
+    "study_summary": "The libraries contained in this experiment come from human fetal liver tissue from independent donors. They are stranded SE101 Illumina Hi-Seq RNA-Seq libraries from rRNA-depleted Total RNA < 200 nucleotides in size  For data usage terms and conditions, please refer to http://www.genome.gov/27528022 and http://www.genome.gov/Pages/Research/ENCODE/ENCODE_Data_Use_Policy_for_External_Users_03-07-14.pdf",
+    "overall_design": "",
+    "taxon": "Homo sapiens",
+    "sample_titles_sample": "small RNA-seq from liver (ENCLB227ZZZ)",
+    "all_tags_in_study": {
+      "stem cell / differentiation": 1
+    }
+  },
+  {
+    "gse": "GSE16256",
+    "n_samples": 1,
+    "current_regex_tag": "stem cell / differentiation",
+    "study_title": "UCSD Human Reference Epigenome Mapping Project",
+    "study_summary": "The human embryonic stem cells (hESCs) are a unique model system for investigating the mechanisms of human development due to their ability to replicate indefinitely while retaining the capacity to differentiate into a host of functionally distinct cell types. In addition, these cells could be potentially used as therapeutic agents in regenerative medicine. Differentiation of hESCs involves selective activation or silencing of genes, a process controlled in part by the epigenetic state of the cell. In order to gain a better understanding of the epigenetic mechanisms regulating differentiation of hESCs, and produce general reference epigenome maps of the human cells, we propose to establish an Epigenome Center in San Diego. Our center will be focused on both undifferentiated hESC and four hESC-derived early embryonic cell lineages including extraembryonic endoderm, trophoblast, mesendoderm (a common precursor to mesodermal and endodermal lineages), and mesenchymal cells (a specific mesoderm derivative). We have developed and validated high throughput technologies for mapping the state of DNA methylation and chromatin modifications throughout the genome, and will use these methods to generate high-resolution maps of the reference epigenomes. Specifically, we will grow and differentiate hESCs into multiple lineages, and map DNA methylation sites using a newly developed technology that combines bisulfite conversion and whole genome shotgun sequencing. We will also determine the histone modification status in the genome by performing both ChlP-chip and ChlP-Seq analysis. We will develop advanced statistical and algorithmic solutions to facilitate high-throughput sequencing data analysis, and establish an informatics pipeline for collecting, storage, and distribution of epigenome maps. Finally, we will perform integrated data analysis to identify new epigenetic patterns in the genome that could provide insights in mechanisms of epigenetic regulation.  **************** For data usage terms and conditions, please refer to: http://www.drugabuse.gov/funding/funding-opportunities/nih-common-fund/epigenomics-data-access-policies ****************",
+    "overall_design": "",
+    "taxon": "Homo sapiens",
+    "sample_titles_sample": "polyA RNA sequencing of STL011 Liver Cells; polyA-RNA-seq_STL011LI_r1a",
+    "all_tags_in_study": {
+      "stem cell / differentiation": 1
+    }
+  },
+  {
+    "gse": "GSE88393",
+    "n_samples": 1,
+    "current_regex_tag": "unknown",
+    "study_title": "small RNA-seq from right lobe of liver (ENCSR603XUX)",
+    "study_summary": "The libraries contained in this Experiment come from tissue sub-sections of a 53 year old female's right lobe of liver tissue section obtained from GTEx. They are stranded PE101 Illumina Hi-Seq RNA-Seq libraries from rRNA-depleted Total RNA < 200 nucleotides in size.  For data usage terms and conditions, please refer to http://www.genome.gov/27528022 and http://www.genome.gov/Pages/Research/ENCODE/ENCODE_Data_Use_Policy_for_External_Users_03-07-14.pdf",
+    "overall_design": "",
+    "taxon": "Homo sapiens",
+    "sample_titles_sample": "small RNA-seq from right lobe of liver (ENCLB496AQV)",
+    "all_tags_in_study": {
+      "unknown": 1
+    }
+  },
+  {
+    "gse": "GSE88424",
+    "n_samples": 1,
+    "current_regex_tag": "unknown",
+    "study_title": "small RNA-seq from right lobe of liver (ENCSR634VLA)",
+    "study_summary": "The libraries contained in this Experiment come from tissue sub-sections of a 53 year old female's right lobe of liver tissue section obtained from GTEx. They are stranded PE101 Illumina Hi-Seq RNA-Seq libraries from rRNA-depleted Total RNA < 200 nucleotides in size.  For data usage terms and conditions, please refer to http://www.genome.gov/27528022 and http://www.genome.gov/Pages/Research/ENCODE/ENCODE_Data_Use_Policy_for_External_Users_03-07-14.pdf",
+    "overall_design": "",
+    "taxon": "Homo sapiens",
+    "sample_titles_sample": "small RNA-seq from right lobe of liver (ENCLB238JDJ)",
+    "all_tags_in_study": {
+      "unknown": 1
+    }
+  },
+  {
+    "gse": "GSE106359",
+    "n_samples": 1,
+    "current_regex_tag": "cell line",
+    "study_title": "Targeted enhancer activation by a subunit of the integrator complex",
+    "study_summary": "We investigated the genomic occupancy of INTS13 during monocytic differentiation, in in vitro differentiated monocytes and a leukemia-derived cell line. We produced genome wide data for steady state RNA (total RNA-seq) and chromatin-associated RNA (chromatin RNA-seq). Further, we used ChIP-seq to examine genome-wide distribution of INTS13, INTS11, EGR1 and NAB2, as well as the changes in occupancy of  RNAPII, H3K4me1 and H3K27ac.",
+    "overall_design": "",
+    "taxon": "Homo sapiens",
+    "sample_titles_sample": "CD34_chromRNA",
+    "all_tags_in_study": {
+      "cell line": 1
+    }
+  },
+  {
+    "gse": "GSE71993",
+    "n_samples": 1,
+    "current_regex_tag": "normal",
+    "study_title": "Differential gene expression profiling of MIHA cells transfected with C-terminal truncated HBx mutants",
+    "study_summary": "To compare the differentially expressed transcriptomes between MIHA cells transfected with empty vector control or different C-terminal truncated HBx mutants (14 or 35 amino acid carboxyl-terminal truncation - i.e. d14 and d35)",
+    "overall_design": "",
+    "taxon": "Homo sapiens",
+    "sample_titles_sample": "MIHA EV",
+    "all_tags_in_study": {
+      "normal": 1
+    }
+  }
+]

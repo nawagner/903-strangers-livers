@@ -1,0 +1,162 @@
+[
+  {
+    "gse": "GSE78562",
+    "n_samples": 2,
+    "title": "total RNA-seq from liver (ENCSR000AEU)",
+    "summary": "RNA-seq on human liver greater than 200bp rRNA depleted total RNA  For data usage terms and conditions, please refer to http://www.genome.gov/27528022 and http://www.genome.gov/Pages/Research/ENCODE/ENCODE_Data_Use_Policy_for_External_Users_03-07-14.pdf",
+    "overall_design": "",
+    "sample_titles_sample": "total RNA-seq from liver (ENCLB173ZZZ) | total RNA-seq from liver (ENCLB174ZZZ)"
+  },
+  {
+    "gse": "GSE88244",
+    "n_samples": 2,
+    "title": "total RNA-seq from liver (ENCSR388ZNJ)",
+    "summary": "RNA-Seq on Adult Human Liver Tissue STL010,STL011  For data usage terms and conditions, please refer to http://www.genome.gov/27528022 and http://www.genome.gov/Pages/Research/ENCODE/ENCODE_Data_Use_Policy_for_External_Users_03-07-14.pdf",
+    "overall_design": "",
+    "sample_titles_sample": "total RNA-seq from liver (ENCLB420PUQ) | total RNA-seq from liver (ENCLB869UHR)"
+  },
+  {
+    "gse": "GSE78569",
+    "n_samples": 2,
+    "title": "total RNA-seq from liver (ENCSR000AFB)",
+    "summary": "The libraries contained in this experiment come from human fetal liver tissue from independent donors. They are stranded PE101 Illumina Hi-Seq RNA-Seq libraries from rRNA-depleted Total RNA > 200 nucleotides in size.  For data usage terms and conditions, please refer to http://www.genome.gov/27528022 and http://www.genome.gov/Pages/Research/ENCODE/ENCODE_Data_Use_Policy_for_External_Users_03-07-14.pdf",
+    "overall_design": "",
+    "sample_titles_sample": "total RNA-seq from liver (ENCLB187ZZZ) | total RNA-seq from liver (ENCLB188ZZZ)"
+  },
+  {
+    "gse": "GSE76098",
+    "n_samples": 2,
+    "title": "Connexin 32-mediated cell-cell communication is essential for hepatic differentiation from human embryonic stem cells",
+    "summary": "Gap junction-mediated cell-cell interactions are highly conserved and play essential roles in cell survival, proliferation, differentiation and patterning. We report that Connexin 32 (Cx32)-mediated gap junctional intercellular communication (GJIC) is necessary for human embryonic stem cell-derived hepatocytes (hESC-Heps) during step-wise hepatic lineage restriction and maturation. Vitamin K2, previously shown to promote Cx32 expression in mature hepatocytes, up-regulated Cx32 expression and GJIC activation during hepatic differentiation and maturation, resulting in significant increases of hepatic markers expression and hepatocyte functions. In contrast, negative Cx32 regulator 2-aminoethoxydiphenyl borate blocked hESC-to-hepatocyte maturation and muted hepatocyte functions through disruption of GJIC activities. Dynamic gap junction organization and internalization are phosphorylation-dependent and the p38 mitogen-activated protein kinases pathway (MAPK) can negatively regulate Cxs through phosphorylation-dependent degradation of Cxs. We found that p38 MAPK inhibitor SB203580 improved maturation of hESC-Heps correlating with up-regulation of Cx32; by contrast, the p38 MAPK activator, anisomycin, blocked hESC-Heps maturation correlating with down-regulation of Cx32. These results suggested that Cx32 is essential for cell-cell interactions that facilitate driving hESCs through hepatic-lineage maturation. Regulators of both Cx32 and other members of its pathways maybe used as a promising approach on regulating hepatic lineage restriction of pluripotent stem cells and optimizing their functional maturation.",
+    "overall_design": "",
+    "sample_titles_sample": "FHHs-1 | FHHs-2"
+  },
+  {
+    "gse": "GSE76998",
+    "n_samples": 2,
+    "title": "Transcriptomic Dynamics during Differentiation Process of Human Pluripotent Cells into Hepatocyte-like Cells",
+    "summary": "Examine characteristics of hESCs and hiPSCs during directed in-vitro differentiation into HLCs.",
+    "overall_design": "",
+    "sample_titles_sample": "Truseq Fetal Liver 17 | Truseq Fetal Liver 18"
+  },
+  {
+    "gse": "GSE93481",
+    "n_samples": 2,
+    "title": "polyA mRNA RNA-seq from liver (ENCSR085HNI)",
+    "summary": "RNA-seq of human liver tissue. The second technical replicate was performed in May 2015 and was not part of the original Lin et al. 2014 publication (PMID:25413365).  For data usage terms and conditions, please refer to http://www.genome.gov/27528022 and http://www.genome.gov/Pages/Research/ENCODE/ENCODE_Data_Use_Policy_for_External_Users_03-07-14.pdf",
+    "overall_design": "",
+    "sample_titles_sample": "polyA mRNA RNA-seq from liver (ENCLB490UAX) | polyA mRNA RNA-seq from liver (ENCLB828MEI)"
+  },
+  {
+    "gse": "GSE97367",
+    "n_samples": 2,
+    "title": "BioProject PRJNA381064: Convergent origination of a Drosophila-like dosage compensation mechanism in a reptile lineage (Gene expression profiling in several tetrapod species, bulk tissue RNA-seq)",
+    "summary": "In order to study the green anole dosage compensation mechanism we generated strand-specific RNA-seq libraries for a total of 186 samples from the green anole and other representative amniotes (human, mouse, opossum, platypus, chicken and xenopus). Moreover, in order to understand the dosage compensation mechanism of A. carolinensis, we generated ChIP-Seq data for the histone modification H4K16ac and compared levels of acetylation between males and females. Moreover, we reconstructed 7 Y-linked transcripts of Anolis carolinensis based on a male/female subtraction approach and validate these Y sequences using re-sequenced genomes.",
+    "overall_design": "",
+    "sample_titles_sample": "Human RNAseq Liver Female1 Adult | Human RNAseq Liver Male1 Adult"
+  },
+  {
+    "gse": "GSE101770",
+    "n_samples": 2,
+    "title": "Whole transcriptome analysis of iPSC-derived hepatic organoids cultures",
+    "summary": "A heatmap, which focused upon 2458 genes that were involved in stem cell differentiation and liver development, was prepared to visualize the relative relationship between the transcriptomes of iPSCs, PHHs, human liver tissue and HO1. The dendrogram indicates that HO1 is more closely related to liver tissue than to PHHs; this is because cholangiocytes are present in HO1 and liver, but are absent (or rare) in PHHs. Examination of the genes within this heatmap indicated that there was a lack of expression of pluripotent genes in HO1; and that HO1 had an increased level of expression of cellular markers for liver lineages and liver development, which included mature hepatocytes, bile duct cells and NOTCH signaling components. A cluster analysis of 1510 genes indicates that there were major changes in the transcriptome after the cells that were dissociated from an HO1 were transferred from the growth medium into the differentiation medium. As with the HO1s, the gene expression profile of HO2s resembled that of PHHs and human liver. Of importance, the level of expression of mRNAs that are of importance for various human liver functions (ADH4, CYP3A4, TTR, GSRA1, TDO2, GSTA1 and FAH) were markedly increased in HO2s.",
+    "overall_design": "",
+    "sample_titles_sample": "LIVER1 | LIVER2"
+  },
+  {
+    "gse": "GSE30017",
+    "n_samples": 1,
+    "title": "Widespread regulated alternative splicing of single codons accelerates proteome evolution",
+    "summary": "Thousands of human genes contain introns ending in NAGNAG motifs (N any nucleotide), where both NAGs can function as 3' splice sites, yielding isoforms differing by inclusion/exclusion of just three bases. However, the functional importance of NAGNAG alternative splicing is highly controversial. Using very deep RNA-Seq data from sixteen human and eight mouse tissues, we found that approximately half of alternatively spliced NAGNAGs undergo tissue-specific regulation and that regulated events have been selectively retained: alternative splicing of strongly tissue-specific NAGNAGs was ten times as likely to be conserved between species as for non-tissue-specific events. Further, alternative splicing of human NAGNAGs was associated with an order of magnitude increase in the frequency of exon length changes at orthologous mouse/rat exon boundaries, suggesting that NAGNAGs accelerate exon evolution. Together, our analyses show that NAGNAG alternative splicing constitutes a major generator of tissue-specific proteome diversity and accelerates evolution of proteins at exon-exon boundaries.",
+    "overall_design": "",
+    "sample_titles_sample": "human_liver.single"
+  },
+  {
+    "gse": "GSE81080",
+    "n_samples": 1,
+    "title": "Differentiation of human embryonic stem cells to HOXA+ hemogenic vasculature that resembles the aorta-gonad-mesonephros",
+    "summary": "The production of definitive haematopoietic stem/progenitor cells from human pluripotent stem cells (hPSCs) remains a significant challenge. Using reporter lines to track the endothelial (SOX17) to haematopoietic (RUNX1C) transition, we found that hPSC differentiated in growth factor supplemented serum free medium generated RUNX1C+CD34+ clonogenic cells that homed to the bone marrow, but did not engraft. Compared to repopulation-competent cord blood CD34+ cells, RUNX1C+CD34+ progenitors lacked HOXA gene expression, indicating incorrect mesoderm patterning. This deficiency was ameliorated by a timed pulse of WNT activation combined with ACTIVIN antagonism. Significantly, these HOXA+ cultures now formed complex SOX17+ vessels that produced fetal liver-like haematopoietic cells, similar to the human aorta-gonad-mesonephros (AGM). Comparison of transcriptional profiles of these nascent haematopoietic stem/progenitors with cells isolated from human AGM confirmed significant similarities, consistent with the assignment of our in vitro generated cells to the definitive human haematopoietic lineage. Our findings argue that HOXA codes established early in differentiation predict cellular potential and provide correct cell patterning for the specification of definitive haematopoietic lineages from hPSCs.",
+    "overall_design": "",
+    "sample_titles_sample": "FL_HSPC"
+  },
+  {
+    "gse": "GSE58679",
+    "n_samples": 1,
+    "title": "Human hepatocyte metaplasia in injured humanized mouse livers",
+    "summary": "The goal of this experiment was to test whether human hepatocytes could give rise to biliary-like progenitor cells in an in vivo context.  Here Fah-/- Il2ry-/- Rag2-/-NOD mouse livers were humanized with human hepatocytes. Only hepatocytes engraft in the Fah-/- mouse at detectable levels in this model.  Then animals were given chronic liver injury with 0.1% ddc.  After injury we measured human-specific transcripts to determine whether the phenotype of the human cells had changed.  Specifically, we evaluated the relative levels of human biliary duct markers such as Spp1, Sox9, Krt7, etc.  and hepatocyte markers such as Alb, Ttr, Fah, etc.",
+    "overall_design": "",
+    "sample_titles_sample": "Normal_huLiver"
+  },
+  {
+    "gse": "GSE66430",
+    "n_samples": 1,
+    "title": "Expression of gallstone disease-associated genes in non-diseased and diseased gallbladder and liver samples",
+    "summary": "Following a large-scale genome-wide association study of gallstone disease, we performed RNA sequencing from tissues of four human gallbladders (3 healthy controls and 1 case with chronic gallstones) and one liver sample from the gallstone case. We aimed to determine the expression patterns of gallstone disease-associated genes in gallbladder and liver, two organs of interest in disease etiology.",
+    "overall_design": "",
+    "sample_titles_sample": "Diseased Liver 1"
+  },
+  {
+    "gse": "GSE88121",
+    "n_samples": 1,
+    "title": "total RNA-seq from right lobe of liver (ENCSR226KML)",
+    "summary": "The libraries contained in this Experiment come from tissue sub-sections of a 53 year old female's liver tissue section obtained from GTEx. They are stranded PE101 Illumina Hi-Seq RNA-Seq libraries from rRNA-depleted Total RNA > 200 nucleotides in size.  For data usage terms and conditions, please refer to http://www.genome.gov/27528022 and http://www.genome.gov/Pages/Research/ENCODE/ENCODE_Data_Use_Policy_for_External_Users_03-07-14.pdf",
+    "overall_design": "",
+    "sample_titles_sample": "total RNA-seq from right lobe of liver (ENCLB139JXN)"
+  },
+  {
+    "gse": "GSE88318",
+    "n_samples": 1,
+    "title": "total RNA-seq from right lobe of liver (ENCSR504QMK)",
+    "summary": "The libraries contained in this Experiment come from tissue sub-sections of a 53 year old female's liver tissue section obtained from GTEx. They are stranded PE101 Illumina Hi-Seq RNA-Seq libraries from rRNA-depleted Total RNA > 200 nucleotides in size.  For data usage terms and conditions, please refer to http://www.genome.gov/27528022 and http://www.genome.gov/Pages/Research/ENCODE/ENCODE_Data_Use_Policy_for_External_Users_03-07-14.pdf",
+    "overall_design": "",
+    "sample_titles_sample": "total RNA-seq from right lobe of liver (ENCLB381PQE)"
+  },
+  {
+    "gse": "GSE78296",
+    "n_samples": 1,
+    "title": "small RNA-seq from liver (ENCSR000AFV)",
+    "summary": "The libraries contained in this experiment come from human fetal liver tissue from independent donors. They are stranded SE101 Illumina Hi-Seq RNA-Seq libraries from rRNA-depleted Total RNA < 200 nucleotides in size  For data usage terms and conditions, please refer to http://www.genome.gov/27528022 and http://www.genome.gov/Pages/Research/ENCODE/ENCODE_Data_Use_Policy_for_External_Users_03-07-14.pdf",
+    "overall_design": "",
+    "sample_titles_sample": "small RNA-seq from liver (ENCLB227ZZZ)"
+  },
+  {
+    "gse": "GSE16256",
+    "n_samples": 1,
+    "title": "UCSD Human Reference Epigenome Mapping Project",
+    "summary": "The human embryonic stem cells (hESCs) are a unique model system for investigating the mechanisms of human development due to their ability to replicate indefinitely while retaining the capacity to differentiate into a host of functionally distinct cell types. In addition, these cells could be potentially used as therapeutic agents in regenerative medicine. Differentiation of hESCs involves selective activation or silencing of genes, a process controlled in part by the epigenetic state of the cell. In order to gain a better understanding of the epigenetic mechanisms regulating differentiation of hESCs, and produce general reference epigenome maps of the human cells, we propose to establish an Epigenome Center in San Diego. Our center will be focused on both undifferentiated hESC and four hESC-derived early embryonic cell lineages including extraembryonic endoderm, trophoblast, mesendoderm (a common precursor to mesodermal and endodermal lineages), and mesenchymal cells (a specific mesoderm derivative). We have developed and validated high throughput technologies for mapping the state of DNA methylation and chromatin modifications throughout the genome, and will use these methods to generate high-resolution maps of the reference epigenomes. Specifically, we will grow and differentiate hESCs into multiple lineages, and map DNA methylation sites using a newly developed technology that combines bisulfite conversion and whole genome shotgun sequencing. We will also determine the histone modification status in the genome by performing both ChlP-chip and ChlP-Seq analysis. We will develop advanced statistical and algorithmic solutions to facilitate high-throughput sequencing data analysis, and establish an informatics pipeline for collecting, storage, and distribution of epigenome maps. Finally, we will perform integrated data analysis to identify new epigenetic patterns in the genome that could provide insights in mechanisms of epigenetic regulation.  **************** For data usage terms and conditions, please refer to: http://www.drugabuse.gov/funding/funding-opportunities/nih-common-fund/epigenomics-data-access-policies ****************",
+    "overall_design": "",
+    "sample_titles_sample": "polyA RNA sequencing of STL011 Liver Cells; polyA-RNA-seq_STL011LI_r1a"
+  },
+  {
+    "gse": "GSE88393",
+    "n_samples": 1,
+    "title": "small RNA-seq from right lobe of liver (ENCSR603XUX)",
+    "summary": "The libraries contained in this Experiment come from tissue sub-sections of a 53 year old female's right lobe of liver tissue section obtained from GTEx. They are stranded PE101 Illumina Hi-Seq RNA-Seq libraries from rRNA-depleted Total RNA < 200 nucleotides in size.  For data usage terms and conditions, please refer to http://www.genome.gov/27528022 and http://www.genome.gov/Pages/Research/ENCODE/ENCODE_Data_Use_Policy_for_External_Users_03-07-14.pdf",
+    "overall_design": "",
+    "sample_titles_sample": "small RNA-seq from right lobe of liver (ENCLB496AQV)"
+  },
+  {
+    "gse": "GSE88424",
+    "n_samples": 1,
+    "title": "small RNA-seq from right lobe of liver (ENCSR634VLA)",
+    "summary": "The libraries contained in this Experiment come from tissue sub-sections of a 53 year old female's right lobe of liver tissue section obtained from GTEx. They are stranded PE101 Illumina Hi-Seq RNA-Seq libraries from rRNA-depleted Total RNA < 200 nucleotides in size.  For data usage terms and conditions, please refer to http://www.genome.gov/27528022 and http://www.genome.gov/Pages/Research/ENCODE/ENCODE_Data_Use_Policy_for_External_Users_03-07-14.pdf",
+    "overall_design": "",
+    "sample_titles_sample": "small RNA-seq from right lobe of liver (ENCLB238JDJ)"
+  },
+  {
+    "gse": "GSE106359",
+    "n_samples": 1,
+    "title": "Targeted enhancer activation by a subunit of the integrator complex",
+    "summary": "We investigated the genomic occupancy of INTS13 during monocytic differentiation, in in vitro differentiated monocytes and a leukemia-derived cell line. We produced genome wide data for steady state RNA (total RNA-seq) and chromatin-associated RNA (chromatin RNA-seq). Further, we used ChIP-seq to examine genome-wide distribution of INTS13, INTS11, EGR1 and NAB2, as well as the changes in occupancy of  RNAPII, H3K4me1 and H3K27ac.",
+    "overall_design": "",
+    "sample_titles_sample": "CD34_chromRNA"
+  },
+  {
+    "gse": "GSE71993",
+    "n_samples": 1,
+    "title": "Differential gene expression profiling of MIHA cells transfected with C-terminal truncated HBx mutants",
+    "summary": "To compare the differentially expressed transcriptomes between MIHA cells transfected with empty vector control or different C-terminal truncated HBx mutants (14 or 35 amino acid carboxyl-terminal truncation - i.e. d14 and d35)",
+    "overall_design": "",
+    "sample_titles_sample": "MIHA EV"
+  }
+]

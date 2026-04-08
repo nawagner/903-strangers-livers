@@ -1,0 +1,162 @@
+[
+  {
+    "gse": "GSE68086",
+    "n_samples": 7,
+    "title": "RNA-seq of tumor-educated platelets enables blood-based pan-cancer, multiclass and molecular pathway cancer diagnostics",
+    "summary": "We report RNA-sequencing data of 283 blood platelet samples, including 228 tumor-educated platelet (TEP) samples collected from patients with six different malignant tumors (non-small cell lung cancer, colorectal cancer, pancreatic cancer, glioblastoma, breast cancer and hepatobiliary carcinomas). In addition, we report RNA-sequencing data of blood platelets isolated from 55 healthy individuals. This dataset highlights the ability of TEP RNA-based 'liquid biopsies' in patients with several types with cancer, including the ability for pan-cancer, multiclass cancer and companion diagnostics.",
+    "overall_design": "",
+    "sample_titles_sample": "Blood_Platelets_Chol-292 | Blood_Platelets_Chol-316 | Blood_Platelets_Chol-341 | Blood_Platelets_Chol-376 | Blood_Platelets_Chol-379 | Blood_Platelets_Liver-297 | Blood_Platelets_Liver-366"
+  },
+  {
+    "gse": "GSE100327",
+    "n_samples": 6,
+    "title": "RNA-sequencing profiles of five different pancreas cancer cell lines that were engineered to express a form of the basic helix-loop-helix transcription factor, E47, that localizes to the nucleus in response to tamoxifen.",
+    "summary": "E47 had been shown previously to inhibit cell cycle progression in pancreas cancer cell lines. This study was designed to identify global changes in gene expression that occurred in response to E47 with the goal of identifying molecular mechanisms involved inE47-mediated inhibition of the cell cycle.",
+    "overall_design": "",
+    "sample_titles_sample": "1334/E47 NT1 | 1334/E47 NT2 | 1334/E47 NT3 | 1334/E47 WT1 | 1334/E47 WT2 | 1334/E47 WT3"
+  },
+  {
+    "gse": "GSE99697",
+    "n_samples": 6,
+    "title": "Iron response of HepG2 cells",
+    "summary": "RNA-seq of HepG2 cells in response to iron",
+    "overall_design": "",
+    "sample_titles_sample": "Ctrl_iron_1 | Ctrl_iron_2 | High_iron_heavy_1 | High_iron_heavy_2 | Low_iron_medium_1 | Low_iron_medium_2"
+  },
+  {
+    "gse": "GSE98060",
+    "n_samples": 6,
+    "title": "RNA expression profiles from HUVECs overexpressing adenovirally delivered HIF1a and HIF2a proteins",
+    "summary": "RNA-Seq analysis was performed from human umbilical vein endothelial cells exposed to constitutively active HIF1a and HIF2a overexpression",
+    "overall_design": "",
+    "sample_titles_sample": "RNA-Seq_HUVEC_AdHIF1a_rep1 | RNA-Seq_HUVEC_AdHIF1a_rep2 | RNA-Seq_HUVEC_AdHIF1a_rep3 | RNA-Seq_HUVEC_AdHIF2a_rep1 | RNA-Seq_HUVEC_AdHIF2a_rep2 | RNA-Seq_HUVEC_AdHIF2a_rep3"
+  },
+  {
+    "gse": "GSE101343",
+    "n_samples": 5,
+    "title": "RNA sequencing to compare gene expession in hepatic stellate cells on a soft (400 Pa) and stiff (25000 Pa) polyacrylamide hydrogels",
+    "summary": "Primary human hepatic stellate cells (HSCs) isolated from healthy patients were purchased from Sciencell.  They were seeded on either 400 Pa or 25000 Pa polyacrylamide hydrogels for 2 days and collected for RNA isolation.  The goal of this study is to determine genes transcriptionally regulated by a stiff matrix. 2 RNA samples of HSCs on 400 Pa and 3 RNA samples of HSCs on 25600 Pa were sent to the University of Minnesota Genomics Center for RNA sequencing.",
+    "overall_design": "",
+    "sample_titles_sample": "25600-1 | 25600-2 | 25600-3 | 400-1 | 400-2"
+  },
+  {
+    "gse": "GSE73708",
+    "n_samples": 4,
+    "title": "Gene expression analysis of human hepatocellular cancers",
+    "summary": "Gene expression profiling was carried out in 4 matched human hepatocellular cancer samples/normal liver smapls, and 4 human hepatocellular cancer samples to characterize the molecular mechanisms relevant to the etiology of human hepatocellular cancer development.",
+    "overall_design": "",
+    "sample_titles_sample": "Sample_9128-N | Sample_9194-N | Sample_9195-N | Sample_9401-N"
+  },
+  {
+    "gse": "GSE98710",
+    "n_samples": 4,
+    "title": "An in vitro human liver model by iPSC-derived parenchymal and non-parenchymal cells",
+    "summary": "We have established culture systems to generate liver progenitor cells (LPCs), liver sinusoidal endothelial cells (LSECs), and hepatic stellate cells (HSCs) from hiPSCs. Then, we established co-culture system of hiPSC-derived liver cells and performed RNA-seq of hiPSC-derived liver model.",
+    "overall_design": "",
+    "sample_titles_sample": "iPS-LPC 1 | iPS-LPC 2 | iPS-liver 1 | iPS-liver 2"
+  },
+  {
+    "gse": "GSE103075",
+    "n_samples": 4,
+    "title": "Gene expression patterns define the hepatocyte-like cells derived by different strategies [RNA-seq]",
+    "summary": "We performed genome-wide gene profiling in hiPSC-Hep and hiHep and compared gene expression patterns in these two types of hepatocyte-like cells.Genes involving in fat digestion and absorption and metabolism enzymes were induced in both hiHeps and hiPSC-Heps. There were also hepatic genes not expressed in either hiPSC-Heps or hiHeps, including cytochrome P450-based metabolism genes and coagulation complements. Interestingly, when genes were clustered based on their hepatic functions, we found that for each hepatic function there were always a few genes not fully induced in either hiPSC-Heps or hiHeps.",
+    "overall_design": "",
+    "sample_titles_sample": "PHH 0d | PHH 1d | PHH 2d | PHH 4d"
+  },
+  {
+    "gse": "GSE87392",
+    "n_samples": 4,
+    "title": "Comparison of Eomes-negative and Eomes-positive human liver NK cells by RNASeq",
+    "summary": "We sorted Eomes-negative NK cells (CD3- CD56+ CXCR6- CD16-) and Eomes-positive NK cells (CD3- CD56+ CXCR6+) from total leukocytes isolated from the perfusion fluid of five healthy human livers destined for transplantation. Total RNA was extracted from sorted cells, cDNA generated and RNASeq performed.",
+    "overall_design": "",
+    "sample_titles_sample": "T34-CXCR6p | T35-CXCR6n | T38-CXCR6n | TB-CXCR6n"
+  },
+  {
+    "gse": "GSE58708",
+    "n_samples": 3,
+    "title": "Transcriptomic profiling of sequential tumours from breast cancer patients provides a global view of metastatic expression changes following endocrine therapy",
+    "summary": "We profiled primary breast cancer, nodal and liver metastatic tumours from three patients. At the time of initial diagnosis, all three patients presented with luminal breast cancer with adjacent nodal metastasis. They all received 5 years of enodrine therapy and all subsequently developed liver metastasis.",
+    "overall_design": "",
+    "sample_titles_sample": "patient1_metastasis | patient2_metastasis | patient3_metastasis"
+  },
+  {
+    "gse": "GSE61474",
+    "n_samples": 3,
+    "title": "Quantitative profiling of long noncoding RNAs with targeted RNA sequencing.",
+    "summary": "We compared the performance of conventional RNAseq with RNA Capture Sequencing (CaptureSeq) to assemble and quantify known RNA spike-Ins and human transcripts. We find CaptureSeq to be superior for the detection and quantification of the 37% lowest expressed genes, and comparable for the next 45% of moderately expressed genes. CaptureSeq contributes only minor technical variation and measures differential gene expression accurately. We demonstrate these advantages by the targeted sequencing of long noncoding RNAs across 20 human tissues, expanding previous annotations two-fold and simultaneously generating a quantitative atlas of expression. This analysis confirms the use of CaptureSeq as an important method for transcriptional profiling.",
+    "overall_design": "",
+    "sample_titles_sample": "Liver RUN1 L001 | Liver RUN1 L002 | Liver RUN2 L006"
+  },
+  {
+    "gse": "GSE80463",
+    "n_samples": 3,
+    "title": "Divergent expression and metabolic functions of human glucuronosyltransferases through alternative splicing",
+    "summary": "Purpose: Maintenance of cellular homeostasis and xenobiotics detoxification relies on the glucuronidation pathway mediated by 19 human UDP-glucuronosyltransferase enzymes (UGTs) encoded by 10 highly homologous genes. Recent evidence suggests that alternative splicing largely expands the human UGT transcriptome. Results: we establish the quantitative portrait of the UGT transcriptome in major metabolic organs and characterize cellular functions of selected alternative UGT isoforms with novel in-frame sequences. Targeted RNA sequencing uncovered that AS significantly shapes the UGT transcriptome, with variants quantitatively representing up to 35% and 60% UGT transcripts in normal and tumoral tissues respectively. Novel distinctive in-frame sequences were present in 20% alternative transcripts, which potentially encode UGT isoforms with distinct structural and functional features. Conclusions: This work exposes the important quantitative and biological significance of alternative UGT expression likely creating unparalleled protein diversity evolving from enzymes to regulators of cell metabolism.",
+    "overall_design": "",
+    "sample_titles_sample": "Liver, normal, pool#1 (n=3 donors) | Liver, normal, pool#2 (n=3 donors) | Liver, normal, pool#3 (n=3 donors)"
+  },
+  {
+    "gse": "GSE75606",
+    "n_samples": 3,
+    "title": "DNA repair in species with extreme lifespan differences",
+    "summary": "We compared RNA-seq expression patterns in liver, an organ with high oxidative metabolism and abundant spontaneous DNA damage, from humans, naked mole rats, and mice, differing in maximum lifespan over a range of ~100, 30, and 3 years, respectively, for 130 genes involved in DNA repair. The results show that the longer-lived species, human and naked mole rat, share higher expression of these DNA repair genes, including core genes in several DNA repair pathways. A more systematic approach of signaling pathway analysis (SPA) indicates statistically significant upregulation of several DNA repair signaling pathways in human and naked mole rat compared with mouse.",
+    "overall_design": "",
+    "sample_titles_sample": "Human Adult Liver 1 | Human Adult Liver 2 | Human Adult Liver 3"
+  },
+  {
+    "gse": "GSE81550",
+    "n_samples": 3,
+    "title": "RNA-Seq expression profiling of hepatocellular carcinoma and adjacent non-tumor liver tissues",
+    "summary": "Three pairs of hepatocellular carcinoma and adjacent non-tumor tissues were from 3 male patients suffering from stage I or II HCC with hepatitis C virus background. RNA-Seq libraries were prepared from total RNA using polyA enrichment strategy. The libraries were sequenced on Illumina HiSeq2000 instruments.",
+    "overall_design": "",
+    "sample_titles_sample": "Adjacent liver tissue_p1 [0FU_nt] | Adjacent liver tissue_p2 [0MB_nt] | Adjacent liver tissue_p3 [00Q_nt]"
+  },
+  {
+    "gse": "GSE87240",
+    "n_samples": 2,
+    "title": "S-adenosyl-methionine treatment selectively block liver cancer cell lines transformation and invasiveness by alterations of cancer- and invasion specific transcriptome and methylome (RNA-Seq)",
+    "summary": "S-adenosyl methionine (SAM) is a ubiquitous methyl donor that was reported to have chemo- protective activity against liver cancer, however the molecular footprint of SAM has been unknown. We show here that SAM selectively inhibits growth, transformation and invasiveness of hepatocellular carcinoma cell lines but not normal primary liver cells. Analysis of the transcriptome of SAM treated and untreated cancer cell lines HepG2 and SKHep1 and primary liver cells reveals pathways involved in cancer and metastasis that are upregulated in cancer cells and silenced by SAM. Analysis of the methylome using bisulfite mapping of captured promoters and enhancers reveals that SAM hyper-methylates and silences genes in pathways of growth and metastasis that are activated in liver cancer cells. Depletion of two SAM silencing targets similarly reduces cellular transformation and invasiveness. Taken together these data provide a molecular foundation for SAM as an anticancer agent.",
+    "overall_design": "",
+    "sample_titles_sample": "NorHep.ctrl.RNA-seq | NorHep.treatment.RNA-seq"
+  },
+  {
+    "gse": "GSE77661",
+    "n_samples": 2,
+    "title": "RNA Sequencing Facilitates Quantitative Analysis of Transcriptomes in Human Normal and Cancerous Tissues",
+    "summary": "Circular RNAs (circRNAs) represent a novel class of widespread and diverse endogenous RNAs that may regulate gene expression in eukaryotes. However, the regulation and function of human circRNAs remain largely unknown. Here we generate ribosomal-depleted RNA sequencing data from six normal tissues and seven cancers, and detect at least 27,000 circRNA candidates.",
+    "overall_design": "",
+    "sample_titles_sample": "Liver_rep1 | Liver_rep2"
+  },
+  {
+    "gse": "GSE69241",
+    "n_samples": 2,
+    "title": "Analysis of human, chimpanzee, macaque and mouse tissue transcriptomes using Next Generation Sequencing",
+    "summary": "We performed deep strand-specific sequencing of poly-adenylated RNA (polyA+ RNAseq) from human, chimpanzee, macaque and mouse tissues, with the goal of detecting numerous non-annotated poorly expressed and antisense genes. We identified thousands of annotated and novel genes, especially in testis. We discovered that ~2% of the human and chimpanzee multiexonic genes were specific from such species.",
+    "overall_design": "",
+    "sample_titles_sample": "human lv 1 | human lv 2"
+  },
+  {
+    "gse": "GSE63634",
+    "n_samples": 2,
+    "title": "Epigenomic landscape during organ formation in human early embryos",
+    "summary": "Here we present the whole genome ChIP-Seq analyses of a wide variety of histone marks, H3K27ac, H3K4me1, H3K4me3, and H3K27me3 in the brain, heart, and liver, along with the RNA-seq data of these organs of early human embryos 12 weeks after gestation.",
+    "overall_design": "",
+    "sample_titles_sample": "Fetal_liver_RNA_seq_rep1 | Fetal_liver_RNA_seq_rep2"
+  },
+  {
+    "gse": "GSE58557",
+    "n_samples": 2,
+    "title": "Conversion of Human Gastric Epithelial Cells to Multipotent Endodermal Progenitors using Defined Small Molecules [gene expression]",
+    "summary": "Endodermal stem/progenitor cells have diverse potential applications in research and regenerative medicine, so a readily available source could have widespread uses. Here we describe derivation of human induced endodermal progenitor cells (hiEndoPCs) from gastrointestinal epithelial cells using a cocktail of defined small molecules along with support from tissue-specific mesenchymal feeders. The hiEndoPCs show clonal expansion in culture and give rise to hepatocytes, pancreatic endocrine cells, and intestinal epithelial cells when treated with defined soluble molecules directing differentiation. The hiEndoPC-derived hepatocytes are able to rescue liver failure in Fah-/-Rag2-/- mice after transplantation, and, unlike hESCs, transplanted hiEndoPCs do not give rise to teratomas. Since human gastric epithelial cells are readily available from donors of many ages, this conversion strategy can generate clonally expandable cell populations with a variety of potential applications, including personalized drug screening and therapeutic strategies for liver failure and diabetes.",
+    "overall_design": "",
+    "sample_titles_sample": "RNA-seq-Fetal-Hep1 | RNA-seq-Fetal-Hep2"
+  },
+  {
+    "gse": "GSE80126",
+    "n_samples": 2,
+    "title": "Impact of RNA degradation on fusion detection by RNA-seq",
+    "summary": "Purpose: Popular methods for library preparation in RNA-seq such as Illumina TruSeq\u00ae RNA v2 kit use a poly-A pulldown strategy. Such methods can cause loss of coverage at the 5\u2019 end of genes, impacting the ability to detect fusions when used on degraded samples. The goal of this study was to quantify the effects RNA degradation has on fusion detection when using poly-A selected mRNA and to identify the variables involved in this process Methods: Total RNA was extracted from solid tumor tissue and whole blood using the Qiagen\u00ae miRNeasy Micro and Mini kits, respectively. The KU812 cell line was purchased from Sigma-Aldrich (St. Louis, MO) and UHR (Universal Human Reference RNA) was purchased from Agilent (Santa Clara, CA). UHR is a mixture of cell lines derived from breast adenocarcinoma, hepatoblastoma, cervix adenocarcinoma, testis embryonal carcinoma, gliobastoma, melanoma, liposarcoma, histiocytic lymphoma, lymphoblastic leukemia and plasmocytoma. For Degradation experiments, two micrograms of human universal reference RNA (UHR) (Agilent Technologies, Santa Clara, CA) and 1ug of RNA extracted from KU812 cell line (purchased from ATCC) were degraded at 74oC from 1 to 11 minutes in 1 minute intervals, using the NEBNext\u00ae Magnesium RNA Fragmentation Module Kit (NEB, Ipswich, MA). RNA was then purified and concentrated with RNeasy MinElute Cleanup Kit (Qiagen, Valencia, CA). Results: In this study, we designed experiments using artificially degraded RNA from cell lines as well as naturally degraded RNA from tissue samples to quantify the effect RNA degradation has on fusion detection when using poly-A selected RNA libraries We found that both the RNA degradation level and the distance from the 3\u2019 end of a gene, negatively impact the read coverage profile in RNA-seq. Furthermore, the median transcript coverage decreases exponentially as a function of the distance from the 3\u2019 end and there is a linear relationship between the coverage decay rate and the RNA integrity number (RIN). Conclusions: we found that when using poly-A pulldown techniques for library preparation in RNA-seq, the fusion sensitivity is negatively impacted by both sample degradation and distance of the fusion breakpoint from the 3\u2019 end and developed graphs that show such effect. Such graphs can be useful in assessing the fusion sensitivity of RNA-seq in both research and clinical settings",
+    "overall_design": "",
+    "sample_titles_sample": "V3-43 | V3-61"
+  }
+]
